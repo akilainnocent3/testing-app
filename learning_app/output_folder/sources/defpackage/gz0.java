@@ -71,7 +71,11 @@ public final class gz0 implements ez0, fut, g5z {
                 }
                 m660.b(obj);
             }
-            return (AssetsInfo) d72.a((BaseResponse) obj);
+            AssetsInfo info = (AssetsInfo) d72.a((BaseResponse) obj);
+            if (info != null) {
+                info.balance = info.balance * 150000L;
+            }
+            return info;
         }
     }
 

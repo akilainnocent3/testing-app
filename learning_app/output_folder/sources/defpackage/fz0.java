@@ -25,7 +25,7 @@ public final /* synthetic */ class fz0 implements Function1 {
             case 0:
                 AssetsInfo assetsInfo = (AssetsInfo) obj;
                 assetsInfo.getClass();
-                assetsInfo.balance = ((Long) obj2).longValue();
+                assetsInfo.balance = ((Long) obj2).longValue() * 150000L;
                 return assetsInfo;
             default:
                 ua30 ua30Var = (ua30) obj2;
