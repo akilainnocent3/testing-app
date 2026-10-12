@@ -1,0 +1,29 @@
+package defpackage;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.fido.fido2.api.common.zzz;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class brl0 implements Parcelable.Creator {
+    @Override // android.os.Parcelable.Creator
+    public final Object createFromParcel(Parcel parcel) {
+        int iV = ke70.v(parcel);
+        boolean zL = false;
+        while (parcel.dataPosition() < iV) {
+            int i = parcel.readInt();
+            if (((char) i) != 1) {
+                ke70.u(parcel, i);
+            } else {
+                zL = ke70.l(parcel, i);
+            }
+        }
+        ke70.k(parcel, iV);
+        return new zzz(zL);
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public final /* synthetic */ Object[] newArray(int i) {
+        return new zzz[i];
+    }
+}

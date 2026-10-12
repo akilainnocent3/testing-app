@@ -1,0 +1,42 @@
+package defpackage;
+
+import com.sportybet.android.gp.tz.R;
+
+/* JADX WARN: Enum visitor error
+jadx.core.utils.exceptions.JadxRuntimeException: Can't remove SSA var: r0v1 gif0[], still in use, count: 1, list:
+  (r0v1 gif0[]) from 0x0022: CONSTRUCTOR (r0v1 gif0[]) A[MD:(T extends java.lang.Enum<T>[]):void (m), WRAPPED] (LINE:35) call: pjg.<init>(java.lang.Enum[]):void type: CONSTRUCTOR
+	at jadx.core.utils.InsnRemover.removeSsaVar(InsnRemover.java:164)
+	at jadx.core.utils.InsnRemover.unbindResult(InsnRemover.java:129)
+	at jadx.core.utils.InsnRemover.lambda$unbindInsns$1(InsnRemover.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at jadx.core.utils.InsnRemover.unbindInsns(InsnRemover.java:100)
+	at jadx.core.utils.InsnRemover.removeAllAndUnbind(InsnRemover.java:257)
+	at jadx.core.dex.visitors.EnumVisitor.convertToEnum(EnumVisitor.java:187)
+	at jadx.core.dex.visitors.EnumVisitor.visit(EnumVisitor.java:102)
+ */
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX INFO: loaded from: classes6.dex */
+public final class gif0 {
+    PICKS(R.string.page_survivor__picks),
+    STATISTICS(R.string.page_survivor__statistics);
+
+    public static final /* synthetic */ pjg e;
+    public final int a;
+
+    static {
+        e = new pjg(gif0VarArr);
+    }
+
+    public gif0(int i) {
+        super(str, i);
+        this.a = i;
+    }
+
+    public static gif0 valueOf(String str) {
+        return (gif0) Enum.valueOf(gif0.class, str);
+    }
+
+    public static gif0[] values() {
+        return (gif0[]) d.clone();
+    }
+}

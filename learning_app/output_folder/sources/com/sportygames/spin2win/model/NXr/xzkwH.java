@@ -1,0 +1,51 @@
+package com.sportygames.spin2win.model.NXr;
+
+/* JADX INFO: loaded from: classes.dex */
+public class xzkwH {
+    public static String ALflFUGGKOvxYlW;
+    public static String AWSQkeXKjgM;
+    public static String BUoIxmB;
+    public static String BWXHPFkwV;
+    public static String CSVwCVR;
+    public static String EEmaBVpya;
+    public static String ENlHYwALNE;
+    public static String EZHkvpCK;
+    public static String HpVHuZbmXiPHEr;
+    public static String HvZyipBdDPkSo;
+    public static String IPspAQPZSdiC;
+    public static String KyZBYHzEYLopuiY;
+    public static String MghWmOh;
+    public static String Mzlyvi;
+    public static String PVkduTUJAdvk;
+    public static String PqCp;
+    public static String QzTitmXeZtNe;
+    public static String RZWAZTZc;
+    public static String ReFPUpnkeaQ;
+    public static String SgdWYCrCNyjPytY;
+    public static String TOHGgORYOOpY;
+    public static String UFGgtM;
+    public static String UfMv;
+    public static String VwICuhdaaF;
+    public static String Vwb;
+    public static String XvVsOaQ;
+    public static String ZjiBmVzovUgtsQ;
+    public static String cNvOyYffPjSgsB;
+    public static String dpiVHkoKmO;
+    public static String eTlmA;
+    public static String ehSkreDcpKBOudr;
+    public static String fHpqWC;
+    public static String ibDpPTgZddGS;
+    public static String jjPFTkzxRkcf;
+    public static String mZbwXBoUMn;
+    public static String pepQtTMQWe;
+    public static String smmCAe;
+    public static String syuvsMSzslHg;
+    public static String vSLSdpc;
+    public static String vngL;
+    public static String vwQfD;
+    public static String wCkCqamSSGWGBl;
+    public static String xPUuZVspEf;
+    public static String yZrmvxB;
+    public static String ykZEv;
+    public static String yzXOV;
+}

@@ -1,0 +1,34 @@
+package defpackage;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes8.dex */
+public final /* synthetic */ class hg2 implements Function0 {
+    public final /* synthetic */ int a;
+    public final /* synthetic */ Object b;
+
+    public /* synthetic */ hg2(Object obj, int i) {
+        this.a = i;
+        this.b = obj;
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Object invoke() {
+        int i = this.a;
+        Object obj = this.b;
+        switch (i) {
+            case 0:
+                ((Function1) obj).invoke(ny2.b.a);
+                break;
+            case 1:
+                ((lvb) obj).S0();
+                break;
+            default:
+                ((dvc0) obj).V1();
+                break;
+        }
+        return Unit.a;
+    }
+}

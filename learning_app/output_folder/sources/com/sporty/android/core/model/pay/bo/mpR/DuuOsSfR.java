@@ -1,0 +1,57 @@
+package com.sporty.android.core.model.pay.bo.mpR;
+
+/* JADX INFO: loaded from: classes.dex */
+public class DuuOsSfR {
+    public static String AWX;
+    public static String BmTUgfy;
+    public static String DGvzDvRkzaEkMo;
+    public static String EGIuHDKHtUV;
+    public static String ESIMZ;
+    public static String EST;
+    public static String FOmHqErGadN;
+    public static String FXS;
+    public static String FfUWVjGDWWk;
+    public static String HLpRhxjbqxlOjkl;
+    public static String HQGiOyLIgMAYPVO;
+    public static String JAn;
+    public static String LUTMDFqlc;
+    public static String MGOAeyClpQIZ;
+    public static String NCDJBDreYl;
+    public static String NFtNDH;
+    public static String NHVGL;
+    public static String OecWiDje;
+    public static String QtsHAcnvLI;
+    public static String RVjShUEF;
+    public static String RvuTaQKzGXshfcN;
+    public static String SVfQGyJn;
+    public static String TsJVslw;
+    public static String UrGnujF;
+    public static String XmBQyeNGkHqRba;
+    public static String YoHb;
+    public static String aOlEyvDZUnFNJJ;
+    public static String ancOlyuWIgMedU;
+    public static String dJKdzvw;
+    public static String dYVHMFNPWkN;
+    public static String ephocdNQzYrXrg;
+    public static String eqsbBOleQdVPiAi;
+    public static String fnDlGoY;
+    public static String gDJlADW;
+    public static String gcZ;
+    public static String hBPfkC;
+    public static String iIMUkDnUYQMztxG;
+    public static String iSuio;
+    public static String jXMsVHnlwlBy;
+    public static String nWLzgqlzyBS;
+    public static String pRWSWXXOhKWLCH;
+    public static String pkFFRVja;
+    public static String pkG;
+    public static String qEvNSySAJawGZk;
+    public static String qTZYTBFrlGofgXH;
+    public static String sHRBXy;
+    public static String sdQKZzqgcBrfe;
+    public static String svgzpf;
+    public static String vQSCqd;
+    public static String yLuIAbw;
+    public static String zFnqedPGCVlJJDs;
+    public static String zhbvzJUkz;
+}

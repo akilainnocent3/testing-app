@@ -1,0 +1,58 @@
+package com.sporty.android.platform.features.luckywheel.fRrI;
+
+/* JADX INFO: loaded from: classes.dex */
+public class OBJWEEF {
+    public static String BAYUUotEhMqCnnu;
+    public static String BSDPKwjwx;
+    public static String CKIyegN;
+    public static String CMfMbpmni;
+    public static String ChcAomFjk;
+    public static String EJQhyooZ;
+    public static String EmfeJcHgYtQwBz;
+    public static String Exlzn;
+    public static String FBPnFphnvMj;
+    public static String FlOyGtwST;
+    public static String GyDgicDCLDYSL;
+    public static String KehhlWqvydk;
+    public static String NPWWSVya;
+    public static String OhSUkZs;
+    public static String OzxqX;
+    public static String PqdDt;
+    public static String RClcILLVNAVpCW;
+    public static String SPgFEtj;
+    public static String SaPl;
+    public static String SyPNMiivXrRyqnc;
+    public static String TUB;
+    public static String UYrbWXaegPY;
+    public static String VWNjWpKndbwiu;
+    public static String VypFzFPFOS;
+    public static String WEpM;
+    public static String WcgYIuLseQkmR;
+    public static String aarHwtcYt;
+    public static String cTVuhajFcUeQv;
+    public static String dQPxpNplTvj;
+    public static String dxjaG;
+    public static String eaiCOv;
+    public static String gFYOPTUkOKr;
+    public static String gedQZO;
+    public static String giFKJZofoEISISv;
+    public static String hrBKxgzkajH;
+    public static String jOYzNp;
+    public static String jXEsImlXuFx;
+    public static String lRUIjKKUBOeHWV;
+    public static String ljJdVyoflse;
+    public static String mcaqFwa;
+    public static String oMHmSHxnNO;
+    public static String oelISRrIqqi;
+    public static String qYrTgdrEfc;
+    public static String qbqCBusSTtWWQ;
+    public static String rkjzx;
+    public static String sWKiuzBzBSSmj;
+    public static String tRnDnPUXFp;
+    public static String tlBsaONlDlNPEd;
+    public static String uQpoxlW;
+    public static String vvsiRWODolEw;
+    public static String vxpyYYaSghQP;
+    public static String wBZphIE;
+    public static String yepGNCDIBRdx;
+}

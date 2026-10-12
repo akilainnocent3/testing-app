@@ -1,0 +1,38 @@
+package defpackage;
+
+import androidx.compose.foundation.layout.j;
+import androidx.compose.runtime.a;
+import androidx.compose.ui.d;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function2;
+
+/* JADX INFO: loaded from: classes7.dex */
+public final /* synthetic */ class v4a implements Function2 {
+    public final /* synthetic */ int a = 0;
+
+    public /* synthetic */ v4a() {
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(Object obj, Object obj2) {
+        switch (this.a) {
+            case 0:
+                a aVar = (a) obj;
+                int iIntValue = ((Integer) obj2).intValue();
+                if (aVar.q(iIntValue & 1, (iIntValue & 3) != 2)) {
+                    ihn.b(u800.a(2131233764, 0, aVar), "back", j.r(d.a.b, 24.0f), 0L, aVar, 432, 8);
+                } else {
+                    aVar.G();
+                }
+                break;
+            default:
+                ((Integer) obj2).getClass();
+                mgt.d(w550.a(1), (a) obj);
+                break;
+        }
+        return Unit.a;
+    }
+
+    public /* synthetic */ v4a(int i) {
+    }
+}

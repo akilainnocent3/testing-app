@@ -1,0 +1,87 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class suh {
+    public static final vd8 A;
+    public static final vd8 B;
+    public static final vd8 C;
+    public static final vd8 D;
+    public static final vd8 E;
+    public static final vd8 F;
+    public static final vd8 G;
+    public static final vd8 H;
+    public static final vd8 I;
+    public static final vd8 J;
+    public static final vd8 K;
+    public static final vd8 a;
+    public static final vd8 b;
+    public static final vd8 c;
+    public static final sk90 d;
+    public static final vd8 e;
+    public static final float f;
+    public static final vd8 g;
+    public static final float h;
+    public static final vd8 i;
+    public static final float j;
+    public static final vd8 k;
+    public static final float l;
+    public static final vd8 m;
+    public static final float n;
+    public static final vd8 o;
+    public static final float p;
+    public static final vd8 q;
+    public static final vd8 r;
+    public static final vd8 s;
+    public static final vd8 t;
+    public static final vd8 u;
+    public static final vd8 v;
+    public static final vd8 w;
+    public static final vd8 x;
+    public static final vd8 y;
+    public static final vd8 z;
+
+    static {
+        vd8 vd8Var = vd8.w;
+        a = vd8Var;
+        vd8 vd8Var2 = vd8.A;
+        b = vd8Var2;
+        c = vd8.I;
+        d = sk90.d;
+        vd8 vd8Var3 = vd8.v;
+        e = vd8Var3;
+        f = 0.38f;
+        g = vd8Var3;
+        h = 0.38f;
+        i = vd8Var3;
+        j = 0.38f;
+        k = vd8Var3;
+        l = 0.38f;
+        m = vd8Var3;
+        n = 0.38f;
+        o = vd8Var3;
+        p = 0.38f;
+        vd8 vd8Var4 = vd8.a;
+        q = vd8Var4;
+        r = vd8Var4;
+        s = vd8Var3;
+        t = vd8Var4;
+        u = vd8Var;
+        v = vd8Var4;
+        w = vd8Var4;
+        x = vd8Var2;
+        y = vd8Var3;
+        z = vd8Var2;
+        A = vd8Var;
+        B = vd8Var;
+        C = vd8Var;
+        D = vd8Var3;
+        oai0 oai0Var = oai0.a;
+        E = vd8Var;
+        F = vd8Var;
+        G = vd8Var;
+        H = vd8Var;
+        I = vd8Var;
+        J = vd8Var;
+        K = vd8Var;
+    }
+}

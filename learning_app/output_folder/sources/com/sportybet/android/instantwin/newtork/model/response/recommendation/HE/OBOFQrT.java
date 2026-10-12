@@ -1,0 +1,52 @@
+package com.sportybet.android.instantwin.newtork.model.response.recommendation.HE;
+
+/* JADX INFO: loaded from: classes.dex */
+public class OBOFQrT {
+    public static String BCVybFm;
+    public static String CDnwgneghX;
+    public static String CxaBOzYrjZxc;
+    public static String EIcpMbN;
+    public static String EjaglUtBHCMaJXb;
+    public static String GyTLZnJqZe;
+    public static String HPeGGKEw;
+    public static String IuhHIUZRX;
+    public static String IvkRPCEhbnhoMU;
+    public static String JFwQTxaUAI;
+    public static String JWrQceUXWckakNW;
+    public static String LBHyRoeV;
+    public static String MClcUfutLxx;
+    public static String PTGZMFMuDTP;
+    public static String ShNBSjALzlU;
+    public static String TDeQxStmaLJR;
+    public static String THyh;
+    public static String UKzizhoI;
+    public static String VcDtpXl;
+    public static String amnyylYCRCGZ;
+    public static String cCmmSwed;
+    public static String cMy;
+    public static String fGsCxmtqvdx;
+    public static String frjPcTPdt;
+    public static String gtlSSs;
+    public static String gxdzWpRu;
+    public static String hwBWAvnx;
+    public static String hzqwlEPYHzJh;
+    public static String iEkNV;
+    public static String iNh;
+    public static String jYsg;
+    public static String jkyllgaupb;
+    public static String kGlOII;
+    public static String lmhSuXNjCaXZ;
+    public static String oHVkN;
+    public static String peXPPXPTaqw;
+    public static String pjHHkMWw;
+    public static String qKYy;
+    public static String qNIiZHS;
+    public static String tfSoTXyhbvRAMT;
+    public static String vPsvi;
+    public static String vkdapVBhrSBhmd;
+    public static String vxkkJf;
+    public static String xFa;
+    public static String ycK;
+    public static String zKYlFbYxA;
+    public static String zweXrdcInuChtIz;
+}

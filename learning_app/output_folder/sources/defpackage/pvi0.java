@@ -1,0 +1,15 @@
+package defpackage;
+
+import com.sportybet.android.limits.v2.edit.V2EditLimitActivity;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final /* synthetic */ class pvi0 implements Function0 {
+    @Override // kotlin.jvm.functions.Function0
+    public final Object invoke() {
+        int i = V2EditLimitActivity.f;
+        ep8.c().e(dgd.a(vje.HOME));
+        return Unit.a;
+    }
+}

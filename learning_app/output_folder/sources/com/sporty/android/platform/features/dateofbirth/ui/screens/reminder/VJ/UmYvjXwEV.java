@@ -1,0 +1,49 @@
+package com.sporty.android.platform.features.dateofbirth.ui.screens.reminder.VJ;
+
+/* JADX INFO: loaded from: classes.dex */
+public class UmYvjXwEV {
+    public static String CKVR;
+    public static String CwCHlxGxB;
+    public static String DxvjvAs;
+    public static String ECeyTNJZVMamD;
+    public static String EVdayZ;
+    public static String EYrhjSH;
+    public static String EgAWtIteIBdb;
+    public static String IOxuz;
+    public static String IrTw;
+    public static String IwWFy;
+    public static String JHb;
+    public static String KLQojNeFzkU;
+    public static String KxLHWsBJXwm;
+    public static String LeEaArovulBu;
+    public static String NExeOxNc;
+    public static String NFDE;
+    public static String NJG;
+    public static String Oivm;
+    public static String RRfM;
+    public static String SSPKHmcoE;
+    public static String UAf;
+    public static String VAsZ;
+    public static String VWMyazSMfGct;
+    public static String VXCkRWX;
+    public static String VepCgZePYHWCq;
+    public static String WGhG;
+    public static String WpzkjLuimuZ;
+    public static String XrPohIKIT;
+    public static String badHfJBkZQP;
+    public static String cgRIpZfLxiWv;
+    public static String fySWlPC;
+    public static String juIEtoHCBVC;
+    public static String lZa;
+    public static String mhn;
+    public static String nZAO;
+    public static String nppLrKucl;
+    public static String nxyhV;
+    public static String pPQD;
+    public static String pve;
+    public static String qiL;
+    public static String qkBijVRUczr;
+    public static String rYOqNdCPN;
+    public static String xvThNoF;
+    public static String zlFVi;
+}

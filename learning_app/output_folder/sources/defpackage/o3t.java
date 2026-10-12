@@ -1,0 +1,33 @@
+package defpackage;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class o3t implements v3t.a {
+    public final /* synthetic */ Map<Integer, List<h3t>> a;
+    public final /* synthetic */ int b;
+    public final /* synthetic */ n3t c;
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public o3t(Map<Integer, ? extends List<? extends h3t>> map, int i, n3t n3tVar) {
+        this.a = map;
+        this.b = i;
+        this.c = n3tVar;
+    }
+
+    @Override // v3t.a
+    public final void a(int i) {
+        List<h3t> list = this.a.get(Integer.valueOf(i));
+        if (list != null) {
+            Iterator<T> it = list.iterator();
+            while (it.hasNext()) {
+                ((h3t) it.next()).execute();
+            }
+        }
+        if (i == this.b) {
+            this.c.s0();
+        }
+    }
+}

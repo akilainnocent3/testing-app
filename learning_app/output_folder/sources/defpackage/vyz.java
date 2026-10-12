@@ -1,0 +1,18 @@
+package defpackage;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class vyz extends qur implements Function1<z1s, Unit> {
+    public static final vyz a = new vyz(1);
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Unit invoke(z1s z1sVar) {
+        z1s z1sVar2 = z1sVar;
+        if (z1sVar2.e()) {
+            z1s.f0(z1sVar2, false, 7);
+        }
+        return Unit.a;
+    }
+}

@@ -1,0 +1,8 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes4.dex */
+public interface s700 {
+    int a();
+
+    float b();
+}

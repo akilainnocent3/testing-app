@@ -1,0 +1,23 @@
+package defpackage;
+
+import androidx.compose.foundation.layout.h;
+import androidx.compose.runtime.a;
+import androidx.compose.ui.d;
+import com.sportybet.android.gp.tz.R;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function2;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final /* synthetic */ class g89 implements Function2 {
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(Object obj, Object obj2) {
+        a aVar = (a) obj;
+        int iIntValue = ((Integer) obj2).intValue();
+        if (aVar.q(iIntValue & 1, (iIntValue & 3) != 2)) {
+            a5f0.a(h.h(d.a.b, 0.0f, 10.0f, 1), zm60.c(4.0f), td8.a(R.color.line_type1_primary, aVar), 0L, 0.0f, 0.0f, null, j89.a, aVar, 12582918, 120);
+        } else {
+            aVar.G();
+        }
+        return Unit.a;
+    }
+}

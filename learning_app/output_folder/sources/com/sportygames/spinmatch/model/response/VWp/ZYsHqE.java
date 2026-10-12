@@ -1,0 +1,51 @@
+package com.sportygames.spinmatch.model.response.VWp;
+
+/* JADX INFO: loaded from: classes.dex */
+public class ZYsHqE {
+    public static String APGUcuiBiziLxLa;
+    public static String AQifRoBFt;
+    public static String Capkd;
+    public static String CpxNHQDIznnei;
+    public static String DDrxgzqydG;
+    public static String DFgBphyjYIQFeZ;
+    public static String DdMWFZJ;
+    public static String DetqjCTzmv;
+    public static String EDCxZXKG;
+    public static String EPSCzcGiaDfwA;
+    public static String Exvq;
+    public static String HfMS;
+    public static String ISfSSw;
+    public static String JNgNy;
+    public static String JmvJaf;
+    public static String JnS;
+    public static String KOX;
+    public static String KvtfofKpvAEyy;
+    public static String LZDzdnb;
+    public static String OIZBbVeOPSIJtUT;
+    public static String PXlkDlDepYyfpDN;
+    public static String QfXEzJwLAdFy;
+    public static String TmtUMmr;
+    public static String UDtSKuypL;
+    public static String WYtGogf;
+    public static String XgeavXnvkLpj;
+    public static String XqAzwi;
+    public static String aEYJf;
+    public static String caA;
+    public static String ddfQxzamheZjvl;
+    public static String gEoz;
+    public static String gaPhvzzmfa;
+    public static String hMymDZin;
+    public static String hOiZXPhiOPSTS;
+    public static String ivyxXyJ;
+    public static String keSkTKlIi;
+    public static String oqKjVeIi;
+    public static String pbpRDUEcTxBUCdx;
+    public static String qAXqMpmDlFKse;
+    public static String qDLwSMhw;
+    public static String qqxGxutxDGR;
+    public static String reSKfIT;
+    public static String tGnYYhxlXjFOxB;
+    public static String xNt;
+    public static String xSnvZxKSBCgOrDJ;
+    public static String xtHZhk;
+}

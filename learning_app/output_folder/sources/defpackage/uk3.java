@@ -1,0 +1,15 @@
+package defpackage;
+
+import com.sportybet.plugin.realsports.betslip.widget.BetslipActivity;
+import java.util.Set;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: loaded from: classes7.dex */
+public final /* synthetic */ class uk3 implements Function0 {
+    @Override // kotlin.jvm.functions.Function0
+    public final Object invoke() {
+        Set<u78> set = BetslipActivity.Y2;
+        return Unit.a;
+    }
+}

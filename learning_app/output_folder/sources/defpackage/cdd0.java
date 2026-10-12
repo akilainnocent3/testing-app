@@ -1,0 +1,10 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class cdd0 {
+    public final gto a;
+
+    public cdd0(gto gtoVar, xqg0 xqg0Var) {
+        this.a = gtoVar;
+    }
+}

@@ -1,0 +1,122 @@
+package defpackage;
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.graphics.BitmapFactory;
+import android.graphics.RectF;
+import android.util.TypedValue;
+import com.sportybet.android.gp.tz.R;
+import java.security.SecureRandom;
+
+/* JADX INFO: loaded from: classes8.dex */
+public final class lpy {
+    public final a5g a;
+    public final a5g b;
+    public final a5g c;
+    public final a5g d;
+    public final a5g e;
+    public final a5g f;
+    public final RectF g;
+    public final RectF h;
+    public final float i;
+    public final float j;
+    public final float k;
+    public final float l;
+    public final float m;
+    public final float n;
+    public final float o;
+    public final float p;
+
+    public lpy(int i, int i2, int i3, Context context) {
+        SecureRandom secureRandomA = zq80.a();
+        Resources resources = context.getResources();
+        BitmapFactory.Options optionsD = xti0.d(resources, R.drawable.sg_gate_frame);
+        float f = i;
+        float f2 = 0.9f * f;
+        float f3 = (optionsD.outHeight * f2) / optionsD.outWidth;
+        float f4 = (f - f2) * 0.5f;
+        float f5 = i2;
+        float f6 = f5 * 0.15f;
+        int i4 = (int) f2;
+        float f7 = f4 + f2;
+        a5g a5gVar = new a5g(xti0.i(resources, R.drawable.sg_gate_frame, i4, (int) f3, optionsD), f4, f6, f7, f6 + f3);
+        this.a = a5gVar;
+        a5gVar.h(xti0.g);
+        BitmapFactory.Options optionsD2 = xti0.d(resources, R.drawable.sg_gate_frame_bg);
+        float f8 = (optionsD2.outHeight * f2) / optionsD2.outWidth;
+        this.b = new a5g(xti0.i(resources, R.drawable.sg_gate_frame_bg, i4, (int) f8, optionsD2), f4, f6, f7, f6 + f8);
+        BitmapFactory.Options optionsD3 = xti0.d(resources, R.drawable.sg_gate_net);
+        float f9 = (f2 * optionsD3.outHeight) / optionsD3.outWidth;
+        a5g a5gVar2 = new a5g(xti0.i(resources, R.drawable.sg_gate_net, i4, (int) f9, optionsD3), f4, f6, f7, f6 + f9);
+        this.f = a5gVar2;
+        RectF rectF = new RectF((a5gVar2.i() * 0.08f) + a5gVar2.a, (a5gVar2.d() * 0.12f) + a5gVar2.b, a5gVar2.c - (a5gVar2.i() * 0.08f), a5gVar2.d - (a5gVar2.d() * 0.15f));
+        this.g = rectF;
+        float f10 = 0.14f * f;
+        RectF rectFB = xti0.b(rectF.centerX(), rectF.centerY(), f10, f10);
+        int i5 = (int) f10;
+        this.c = new a5g(xti0.j(resources, i3 != 201 ? i3 != 202 ? xti0.b : xti0.c : xti0.d, i5, i5, null), false, rectFB.left, rectFB.top, rectFB.right, rectFB.bottom);
+        float f11 = f * 0.11f;
+        this.i = f11;
+        float f12 = 0.125f * f5;
+        float f13 = f * 0.5f;
+        RectF rectFB2 = xti0.b(f13, (f5 - TypedValue.applyDimension(1, 40.0f, resources.getDisplayMetrics())) - (f12 * 0.5f), f12, f12);
+        int i6 = (int) f12;
+        a5g a5gVar3 = new a5g(xti0.j(resources, xti0.a, i6, i6, null), true, rectFB2.left, rectFB2.top, rectFB2.right, rectFB2.bottom);
+        this.d = a5gVar3;
+        int[] iArr = xti0.e;
+        BitmapFactory.Options optionsD4 = xti0.d(resources, iArr[0]);
+        float f14 = 0.2f * f5;
+        float f15 = f5 * 0.025f;
+        float f16 = f15 + a5gVar.d;
+        float f17 = (optionsD4.outWidth * f14) / optionsD4.outHeight;
+        float f18 = f13 - (f17 * 0.5f);
+        a5g a5gVar4 = new a5g(xti0.j(resources, iArr, (int) f17, (int) f14, optionsD4), false, f18, f16 - f14, f18 + f17, f16);
+        this.e = a5gVar4;
+        a5gVar4.h(xti0.f);
+        RectF rectF2 = new RectF((a5gVar4.i() * 0.5f) + a5gVar.a, a5gVar4.b, a5gVar.c - (a5gVar4.i() * 0.5f), a5gVar4.d);
+        this.h = rectF2;
+        a5gVar4.f(rectF2.left + secureRandomA.nextInt((int) rectF2.width()), a5gVar4.b());
+        float f19 = 0.95f * f11;
+        this.m = a5gVar.a + f19;
+        this.n = a5gVar.c - f19;
+        float f20 = (a5gVar.d - f15) - (f11 * 0.5f);
+        this.l = f20;
+        float f21 = f20 - (f11 * 0.75f);
+        this.j = f21;
+        float f22 = a5gVar.b * 0.5f;
+        this.k = f22;
+        float fB = a5gVar3.b() - f21;
+        float fB2 = a5gVar3.b();
+        this.o = (float) (Math.exp((Math.log((fB2 * 0.009f) + 1.0f) * ((double) fB)) / ((double) fB2)) - 1.0d);
+        float fB3 = a5gVar3.b() - f22;
+        float fB4 = a5gVar3.b();
+        this.p = (float) (Math.exp((Math.log((0.009f * fB4) + 1.0f) * ((double) fB3)) / ((double) fB4)) - 1.0d);
+    }
+
+    public final String toString() {
+        StringBuilder sb = new StringBuilder("ObjectBallConfig{frameEdge=");
+        sb.append(this.a);
+        sb.append("frameNet=");
+        sb.append(this.f);
+        sb.append(", target=");
+        sb.append(this.c);
+        sb.append(", ball=");
+        sb.append(this.d);
+        sb.append(", goalkeeper=");
+        sb.append(this.e);
+        sb.append(", targetMoveArea=");
+        sb.append(this.g);
+        sb.append(", ballCollisionSize=");
+        sb.append(this.i);
+        sb.append(", flingMaxY=");
+        sb.append(this.j);
+        sb.append(", flingMinY=");
+        sb.append(this.k);
+        sb.append(", dropMaxY=");
+        sb.append(this.l);
+        sb.append(", minVelocity=");
+        sb.append(this.o);
+        sb.append(", maxVelocity=");
+        return n70.a(sb, this.p, '}');
+    }
+}

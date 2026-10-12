@@ -1,0 +1,11 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class l500 {
+    public static void a(int i, String str, String str2, String str3, StringBuilder sb) {
+        sb.append(i);
+        sb.append(str);
+        sb.append(str2);
+        sb.append(str3);
+    }
+}

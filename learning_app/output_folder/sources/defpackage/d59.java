@@ -1,0 +1,16 @@
+package defpackage;
+
+import androidx.compose.runtime.a;
+import kotlin.Unit;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final /* synthetic */ class d59 implements ejj {
+    @Override // defpackage.ejj
+    public final Object d(Object obj, Object obj2, Object obj3, Object obj4) {
+        ((Integer) obj4).getClass();
+        ((xf0) obj).getClass();
+        ((vsx) obj2).getClass();
+        l6k0.d(null, (a) obj3, 0);
+        return Unit.a;
+    }
+}

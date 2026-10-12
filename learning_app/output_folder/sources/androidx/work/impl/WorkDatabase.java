@@ -1,0 +1,29 @@
+package androidx.work.impl;
+
+import defpackage.bi60;
+import defpackage.d1l0;
+import defpackage.grf0;
+import defpackage.m0l0;
+import defpackage.o630;
+import defpackage.pvd;
+import defpackage.q0l0;
+import defpackage.y1l0;
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\b'\u0018\u00002\u00020\u0001B\u0007¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Landroidx/work/impl/WorkDatabase;", "Lbi60;", "<init>", "()V", "work-runtime_release"}, k = 1, mv = {1, 8, 0}, xi = 48)
+public abstract class WorkDatabase extends bi60 {
+    public abstract m0l0 A();
+
+    public abstract q0l0 B();
+
+    public abstract d1l0 C();
+
+    public abstract y1l0 D();
+
+    public abstract pvd x();
+
+    public abstract o630 y();
+
+    public abstract grf0 z();
+}

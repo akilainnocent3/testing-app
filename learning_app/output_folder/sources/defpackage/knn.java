@@ -1,0 +1,74 @@
+package defpackage;
+
+import java.io.Serializable;
+import okhttp3.internal.url._UrlKt;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class knn implements Serializable {
+    public static final knn c = new knn(new int[0], 0);
+    public final int[] a;
+    public final int b;
+
+    public knn(int[] iArr, int i) {
+        this.a = iArr;
+        this.b = i;
+    }
+
+    public static knn b(int... iArr) {
+        y530.b("the total number of elements must fit in an int", iArr.length <= 2147483646);
+        int length = iArr.length + 1;
+        int[] iArr2 = new int[length];
+        iArr2[0] = 0;
+        System.arraycopy(iArr, 0, iArr2, 1, iArr.length);
+        return new knn(iArr2, length);
+    }
+
+    public final int a(int i) {
+        y530.j(i, this.b);
+        return this.a[i];
+    }
+
+    public final boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj instanceof knn) {
+            knn knnVar = (knn) obj;
+            int i = knnVar.b;
+            int i2 = this.b;
+            if (i2 == i) {
+                for (int i3 = 0; i3 < i2; i3++) {
+                    if (a(i3) == knnVar.a(i3)) {
+                    }
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public final int hashCode() {
+        int i = 1;
+        for (int i2 = 0; i2 < this.b; i2++) {
+            i = (i * 31) + this.a[i2];
+        }
+        return i;
+    }
+
+    public final String toString() {
+        int i = this.b;
+        if (i == 0) {
+            return _UrlKt.PATH_SEGMENT_ENCODE_SET_URI;
+        }
+        StringBuilder sb = new StringBuilder(i * 5);
+        sb.append('[');
+        int[] iArr = this.a;
+        sb.append(iArr[0]);
+        for (int i2 = 1; i2 < i; i2++) {
+            sb.append(", ");
+            sb.append(iArr[i2]);
+        }
+        sb.append(']');
+        return sb.toString();
+    }
+}
