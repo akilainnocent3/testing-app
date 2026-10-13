@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportygames.sportysoccer.widget.TitleLayout android:background="@color/sg_title_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0sp" android:layout_marginRight="32.0sp" android:layout_centerVertical="true" app:srcCompat="@null" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_toRightOf="@id/back" android:layout_centerVertical="true" android:fontFamily="@font/roboto" />
+</com.sportygames.sportysoccer.widget.TitleLayout>

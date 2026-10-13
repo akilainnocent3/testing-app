@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/text_type2_primary" android:id="@id/toast_message" android:background="@drawable/bg_snackbar" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingVertical="14.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

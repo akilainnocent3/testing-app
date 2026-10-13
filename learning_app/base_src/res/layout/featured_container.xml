@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0dp" android:textStyle="bold" android:textColor="@color/text_type1_primary" android:gravity="center_vertical" android:id="@id/txt_featured_label" android:layout_width="wrap_content" android:layout_height="43.0dp" android:text="@string/common_functions__featured" android:paddingStart="12.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/view_divider" android:background="@color/line_type1_secondary" android:layout_width="1.0dp" android:layout_height="21.0dp" android:layout_marginStart="10.0dp" app:layout_constraintBottom_toBottomOf="@id/txt_featured_label" app:layout_constraintStart_toEndOf="@id/txt_featured_label" app:layout_constraintTop_toTopOf="@id/txt_featured_label" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/featured_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginStart="4.0dp" android:layout_marginEnd="8.0dp" app:layout_constraintBottom_toBottomOf="@id/txt_featured_label" app:layout_constraintEnd_toStartOf="@id/btn_entry" app:layout_constraintStart_toEndOf="@id/view_divider" app:layout_constraintTop_toTopOf="@id/txt_featured_label" app:tabBackground="@null" app:tabGravity="start" app:tabIndicatorHeight="0.0dp" app:tabMinWidth="10.0dp" app:tabPaddingEnd="12.0dp" app:tabPaddingStart="12.0dp" app:tabTextAppearance="@style/CustomTabAppearance" style="@style/Widget.App.TabLayout.Default.NoIndicator" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_entry" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginEnd="10.0dp" app:layout_constraintBottom_toBottomOf="@id/txt_featured_label" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/txt_featured_label" app:srcCompat="@drawable/ic_code_hub_entry" />
+    <ViewFlipper android:id="@id/viewFlipper" android:layout_width="match_parent" android:layout_height="180.0dp" app:layout_constraintTop_toBottomOf="@id/txt_featured_label">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/tabs" android:layout_width="match_parent" android:layout_height="34.0dp" android:layout_marginTop="4.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/pager" android:layout_width="match_parent" android:layout_height="140.0dp" android:layout_marginTop="2.0dp" />
+        </LinearLayout>
+        <com.sportybet.android.game.agent.FeaturedGamesRouter android:id="@id/featured_games" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/txt_featured_label" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.sportybet.android.widget.LoadingView android:id="@id/loading" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/featured_code" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="2.0dp" />
+        </LinearLayout>
+        <com.sportybet.android.instantwin.presentation.buildandgo.FeaturedInstantVirtualView android:id="@id/featured_virtual" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.sportybet.feature.luckynumber.featurematch.presentation.LuckyNumberFeatureMatchView android:id="@id/featured_lucky_number" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </ViewFlipper>
+</merge>

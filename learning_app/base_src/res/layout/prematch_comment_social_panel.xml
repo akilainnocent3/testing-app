@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/text_type1_secondary" android:gravity="center_vertical" android:id="@id/comments_count" android:paddingLeft="8.0dp" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="30.0dp" android:layout_marginRight="16.0dp" android:drawablePadding="3.0dp" android:fontFamily="sans-serif" app:drawableLeftCompat="@drawable/spr_vote_up_comment" />
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/text_type1_secondary" android:gravity="center" android:id="@id/comments_reply" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="30.0dp" android:text="@string/common_functions__reply" android:drawablePadding="5.0dp" android:lineSpacingExtra="0.0sp" android:fontFamily="sans-serif" app:drawableLeftCompat="@drawable/spr_reply_comment" />
+    </LinearLayout>
+</merge>

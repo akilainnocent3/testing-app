@@ -1,0 +1,23 @@
+.class public Lcom/sportybet/android/data/KEDepositBOConfig;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public freeDepositThreshold:Ljava/lang/String;
+
+.field public hintEntity:Lcom/sporty/android/core/model/pocket/common/PayHintData$PayHintEntity;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

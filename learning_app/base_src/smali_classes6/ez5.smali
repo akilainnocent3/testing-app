@@ -1,0 +1,22 @@
+.class public interface abstract Lez5;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract a()Lge70;
+.end method
+
+.method public abstract b()Lge70;
+.end method

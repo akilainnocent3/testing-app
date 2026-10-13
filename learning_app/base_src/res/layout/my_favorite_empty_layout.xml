@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportybet.plugin.myfavorite.widget.MyFavoriteEmptyLayout android:gravity="center" android:orientation="vertical" android:background="@color/background_type1_secondary" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" app:srcCompat="@drawable/ic_icon_fav_added" />
+    <TextView android:textSize="18.0dp" android:textStyle="normal" android:textColor="@color/text_type1_tertiary" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dp" android:layout_marginBottom="20.0dp" android:text="@string/my_favourites__intro_page_title" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="14.0dp" android:textStyle="normal" android:textColor="@color/text_type1_primary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp" android:text="@string/my_favourites__intro_page_subtitle" android:lineSpacingExtra="7.0sp" android:fontFamily="sans-serif" />
+    <TextView android:textSize="14.0dp" android:textStyle="normal" android:gravity="center" android:id="@id/pick_my_favourites" android:layout_width="156.0dp" android:layout_height="44.0dp" android:text="@string/my_favourites__pick_my_favourites_btn" android:fontFamily="sans-serif-medium" style="@style/Widget.App.CommonButton.Contained" />
+</com.sportybet.plugin.myfavorite.widget.MyFavoriteEmptyLayout>

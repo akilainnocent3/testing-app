@@ -1,0 +1,12 @@
+.class public interface abstract Lmkx;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lmkx$a;,
+        Lmkx$b;
+    }
+.end annotation

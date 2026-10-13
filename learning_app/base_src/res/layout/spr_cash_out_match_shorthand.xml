@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background_cashout_card" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:elevation="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/cash_out_match" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" />
+    <TextView android:textSize="12.0dp" android:textColor="@color/text_type2_tertiary" android:id="@id/more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_below="@id/cash_out_match" />
+    <TextView android:textSize="12.0dp" android:textColor="@color/text_type2_tertiary" android:gravity="center_vertical" android:id="@id/expand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/bet_history__show_match_details" android:layout_below="@id/cash_out_match" android:layout_alignParentRight="true" />
+    <View android:background="@color/line_type1_primary" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="10.0dp" android:layout_below="@id/expand" />
+</RelativeLayout>

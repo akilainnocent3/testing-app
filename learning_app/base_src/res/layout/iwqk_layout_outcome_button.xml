@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/iwqk_outcome_item_padding" android:paddingRight="@dimen/iwqk_outcome_item_padding" android:layout_width="match_parent" android:layout_height="34.0dp" android:paddingHorizontal="@dimen/iwqk_outcome_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/iwqk_outcome_toggle_txt" android:gravity="left|center" android:id="@id/outcome_desc" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" app:autoSizeMaxTextSize="14.0dp" app:autoSizeMinTextSize="9.0dp" app:autoSizeStepGranularity="1.0dp" app:autoSizeTextType="uniform" />
+    <ImageView android:id="@id/outcome_lock" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/iwqk_outcome_disable" />
+    <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/iwqk_outcome_toggle_txt" android:gravity="right|center" android:id="@id/outcome_value" android:layout_width="0.0dp" android:layout_height="match_parent" android:maxLines="1" android:layout_weight="1.0" app:autoSizeMaxTextSize="14.0dp" app:autoSizeMinTextSize="9.0dp" app:autoSizeStepGranularity="1.0dp" app:autoSizeTextType="uniform" />
+</LinearLayout>

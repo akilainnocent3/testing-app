@@ -1,0 +1,1111 @@
+.class public final Lim/delight/android/webview/AdvancedWebView$b;
+.super Landroid/webkit/WebChromeClient;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lim/delight/android/webview/AdvancedWebView;->b(Landroid/content/Context;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lim/delight/android/webview/AdvancedWebView;
+
+
+# direct methods
+.method public constructor <init>(Lim/delight/android/webview/AdvancedWebView;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Landroid/webkit/WebChromeClient;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getDefaultVideoPoster()Landroid/graphics/Bitmap;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0}, Landroid/webkit/WebChromeClient;->getDefaultVideoPoster()Landroid/graphics/Bitmap;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    return-object p0
+
+    .line 12
+    :cond_0
+    invoke-super {p0}, Landroid/webkit/WebChromeClient;->getDefaultVideoPoster()Landroid/graphics/Bitmap;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p0
+
+    .line 16
+    return-object p0
+.end method
+
+.method public final getVideoLoadingProgressView()Landroid/view/View;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0}, Landroid/webkit/WebChromeClient;->getVideoLoadingProgressView()Landroid/view/View;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    return-object p0
+
+    .line 12
+    :cond_0
+    invoke-super {p0}, Landroid/webkit/WebChromeClient;->getVideoLoadingProgressView()Landroid/view/View;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p0
+
+    .line 16
+    return-object p0
+.end method
+
+.method public final getVisitedHistory(Landroid/webkit/ValueCallback;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/webkit/ValueCallback<",
+            "[",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1}, Landroid/webkit/WebChromeClient;->getVisitedHistory(Landroid/webkit/ValueCallback;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1}, Landroid/webkit/WebChromeClient;->getVisitedHistory(Landroid/webkit/ValueCallback;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onCloseWindow(Landroid/webkit/WebView;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1}, Landroid/webkit/WebChromeClient;->onCloseWindow(Landroid/webkit/WebView;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1}, Landroid/webkit/WebChromeClient;->onCloseWindow(Landroid/webkit/WebView;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onConsoleMessage(Ljava/lang/String;ILjava/lang/String;)V
+    .locals 1
+
+    .line 17
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    if-eqz v0, :cond_0
+
+    .line 18
+    invoke-virtual {v0, p1, p2, p3}, Landroid/webkit/WebChromeClient;->onConsoleMessage(Ljava/lang/String;ILjava/lang/String;)V
+
+    return-void
+
+    .line 19
+    :cond_0
+    invoke-super {p0, p1, p2, p3}, Landroid/webkit/WebChromeClient;->onConsoleMessage(Ljava/lang/String;ILjava/lang/String;)V
+
+    return-void
+.end method
+
+.method public final onConsoleMessage(Landroid/webkit/ConsoleMessage;)Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1}, Landroid/webkit/WebChromeClient;->onConsoleMessage(Landroid/webkit/ConsoleMessage;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+
+    .line 12
+    :cond_0
+    invoke-super {p0, p1}, Landroid/webkit/WebChromeClient;->onConsoleMessage(Landroid/webkit/ConsoleMessage;)Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result p0
+
+    .line 16
+    return p0
+.end method
+
+.method public final onCreateWindow(Landroid/webkit/WebView;ZZLandroid/os/Message;)Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroid/webkit/WebChromeClient;->onCreateWindow(Landroid/webkit/WebView;ZZLandroid/os/Message;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+
+    .line 12
+    :cond_0
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/webkit/WebChromeClient;->onCreateWindow(Landroid/webkit/WebView;ZZLandroid/os/Message;)Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result p0
+
+    .line 16
+    return p0
+.end method
+
+.method public final onExceededDatabaseQuota(Ljava/lang/String;Ljava/lang/String;JJJLandroid/webkit/WebStorage$QuotaUpdater;)V
+    .locals 11
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v1, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v1, :cond_0
+
+    .line 6
+    .line 7
+    move-object v2, p1
+
+    .line 8
+    move-object v3, p2
+
+    .line 9
+    move-wide v4, p3
+
+    .line 10
+    move-wide/from16 v6, p5
+
+    .line 11
+    .line 12
+    move-wide/from16 v8, p7
+
+    .line 13
+    .line 14
+    move-object/from16 v10, p9
+
+    .line 15
+    .line 16
+    invoke-virtual/range {v1 .. v10}, Landroid/webkit/WebChromeClient;->onExceededDatabaseQuota(Ljava/lang/String;Ljava/lang/String;JJJLandroid/webkit/WebStorage$QuotaUpdater;)V
+
+    .line 17
+    .line 18
+    .line 19
+    return-void
+
+    .line 20
+    :cond_0
+    invoke-super/range {p0 .. p9}, Landroid/webkit/WebChromeClient;->onExceededDatabaseQuota(Ljava/lang/String;Ljava/lang/String;JJJLandroid/webkit/WebStorage$QuotaUpdater;)V
+
+    .line 21
+    .line 22
+    .line 23
+    return-void
+.end method
+
+.method public final onGeolocationPermissionsHidePrompt()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0}, Landroid/webkit/WebChromeClient;->onGeolocationPermissionsHidePrompt()V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0}, Landroid/webkit/WebChromeClient;->onGeolocationPermissionsHidePrompt()V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onGeolocationPermissionsShowPrompt(Ljava/lang/String;Landroid/webkit/GeolocationPermissions$Callback;)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-boolean v1, v0, Lim/delight/android/webview/AdvancedWebView;->y:Z
+
+    .line 4
+    .line 5
+    if-eqz v1, :cond_0
+
+    .line 6
+    .line 7
+    const/4 p0, 0x1
+
+    .line 8
+    const/4 v0, 0x0
+
+    .line 9
+    invoke-interface {p2, p1, p0, v0}, Landroid/webkit/GeolocationPermissions$Callback;->invoke(Ljava/lang/String;ZZ)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+
+    .line 13
+    :cond_0
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 14
+    .line 15
+    if-eqz v0, :cond_1
+
+    .line 16
+    .line 17
+    invoke-virtual {v0, p1, p2}, Landroid/webkit/WebChromeClient;->onGeolocationPermissionsShowPrompt(Ljava/lang/String;Landroid/webkit/GeolocationPermissions$Callback;)V
+
+    .line 18
+    .line 19
+    .line 20
+    return-void
+
+    .line 21
+    :cond_1
+    invoke-super {p0, p1, p2}, Landroid/webkit/WebChromeClient;->onGeolocationPermissionsShowPrompt(Ljava/lang/String;Landroid/webkit/GeolocationPermissions$Callback;)V
+
+    .line 22
+    .line 23
+    .line 24
+    return-void
+.end method
+
+.method public final onHideCustomView()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0}, Landroid/webkit/WebChromeClient;->onHideCustomView()V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0}, Landroid/webkit/WebChromeClient;->onHideCustomView()V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onJsAlert(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroid/webkit/WebChromeClient;->onJsAlert(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+
+    .line 12
+    :cond_0
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/webkit/WebChromeClient;->onJsAlert(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result p0
+
+    .line 16
+    return p0
+.end method
+
+.method public final onJsBeforeUnload(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroid/webkit/WebChromeClient;->onJsBeforeUnload(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+
+    .line 12
+    :cond_0
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/webkit/WebChromeClient;->onJsBeforeUnload(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result p0
+
+    .line 16
+    return p0
+.end method
+
+.method public final onJsConfirm(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroid/webkit/WebChromeClient;->onJsConfirm(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+
+    .line 12
+    :cond_0
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/webkit/WebChromeClient;->onJsConfirm(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result p0
+
+    .line 16
+    return p0
+.end method
+
+.method public final onJsPrompt(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsPromptResult;)Z
+    .locals 7
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v1, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v1, :cond_0
+
+    .line 6
+    .line 7
+    move-object v2, p1
+
+    .line 8
+    move-object v3, p2
+
+    .line 9
+    move-object v4, p3
+
+    .line 10
+    move-object v5, p4
+
+    .line 11
+    move-object v6, p5
+
+    .line 12
+    invoke-virtual/range {v1 .. v6}, Landroid/webkit/WebChromeClient;->onJsPrompt(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsPromptResult;)Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result p0
+
+    .line 16
+    return p0
+
+    .line 17
+    :cond_0
+    move-object v0, p0
+
+    .line 18
+    move-object v1, p1
+
+    .line 19
+    move-object v2, p2
+
+    .line 20
+    move-object v3, p3
+
+    .line 21
+    move-object v4, p4
+
+    .line 22
+    move-object v5, p5
+
+    .line 23
+    invoke-super/range {v0 .. v5}, Landroid/webkit/WebChromeClient;->onJsPrompt(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsPromptResult;)Z
+
+    .line 24
+    .line 25
+    .line 26
+    move-result p0
+
+    .line 27
+    return p0
+.end method
+
+.method public final onJsTimeout()Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0}, Landroid/webkit/WebChromeClient;->onJsTimeout()Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+
+    .line 12
+    :cond_0
+    invoke-super {p0}, Landroid/webkit/WebChromeClient;->onJsTimeout()Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result p0
+
+    .line 16
+    return p0
+.end method
+
+.method public final onPermissionRequest(Landroid/webkit/PermissionRequest;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1}, Landroid/webkit/WebChromeClient;->onPermissionRequest(Landroid/webkit/PermissionRequest;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1}, Landroid/webkit/WebChromeClient;->onPermissionRequest(Landroid/webkit/PermissionRequest;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onPermissionRequestCanceled(Landroid/webkit/PermissionRequest;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1}, Landroid/webkit/WebChromeClient;->onPermissionRequestCanceled(Landroid/webkit/PermissionRequest;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1}, Landroid/webkit/WebChromeClient;->onPermissionRequestCanceled(Landroid/webkit/PermissionRequest;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onProgressChanged(Landroid/webkit/WebView;I)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1, p2}, Landroid/webkit/WebChromeClient;->onProgressChanged(Landroid/webkit/WebView;I)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1, p2}, Landroid/webkit/WebChromeClient;->onProgressChanged(Landroid/webkit/WebView;I)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onReceivedIcon(Landroid/webkit/WebView;Landroid/graphics/Bitmap;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1, p2}, Landroid/webkit/WebChromeClient;->onReceivedIcon(Landroid/webkit/WebView;Landroid/graphics/Bitmap;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1, p2}, Landroid/webkit/WebChromeClient;->onReceivedIcon(Landroid/webkit/WebView;Landroid/graphics/Bitmap;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onReceivedTitle(Landroid/webkit/WebView;Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1, p2}, Landroid/webkit/WebChromeClient;->onReceivedTitle(Landroid/webkit/WebView;Ljava/lang/String;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1, p2}, Landroid/webkit/WebChromeClient;->onReceivedTitle(Landroid/webkit/WebView;Ljava/lang/String;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onReceivedTouchIconUrl(Landroid/webkit/WebView;Ljava/lang/String;Z)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1, p2, p3}, Landroid/webkit/WebChromeClient;->onReceivedTouchIconUrl(Landroid/webkit/WebView;Ljava/lang/String;Z)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1, p2, p3}, Landroid/webkit/WebChromeClient;->onReceivedTouchIconUrl(Landroid/webkit/WebView;Ljava/lang/String;Z)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onRequestFocus(Landroid/webkit/WebView;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1}, Landroid/webkit/WebChromeClient;->onRequestFocus(Landroid/webkit/WebView;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1}, Landroid/webkit/WebChromeClient;->onRequestFocus(Landroid/webkit/WebView;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onShowCustomView(Landroid/view/View;ILandroid/webkit/WebChromeClient$CustomViewCallback;)V
+    .locals 1
+
+    .line 15
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    if-eqz v0, :cond_0
+
+    .line 16
+    invoke-virtual {v0, p1, p2, p3}, Landroid/webkit/WebChromeClient;->onShowCustomView(Landroid/view/View;ILandroid/webkit/WebChromeClient$CustomViewCallback;)V
+
+    return-void
+
+    .line 17
+    :cond_0
+    invoke-super {p0, p1, p2, p3}, Landroid/webkit/WebChromeClient;->onShowCustomView(Landroid/view/View;ILandroid/webkit/WebChromeClient$CustomViewCallback;)V
+
+    return-void
+.end method
+
+.method public final onShowCustomView(Landroid/view/View;Landroid/webkit/WebChromeClient$CustomViewCallback;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 2
+    .line 3
+    iget-object v0, v0, Lim/delight/android/webview/AdvancedWebView;->w:Landroid/webkit/WebChromeClient;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1, p2}, Landroid/webkit/WebChromeClient;->onShowCustomView(Landroid/view/View;Landroid/webkit/WebChromeClient$CustomViewCallback;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    invoke-super {p0, p1, p2}, Landroid/webkit/WebChromeClient;->onShowCustomView(Landroid/view/View;Landroid/webkit/WebChromeClient$CustomViewCallback;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final onShowFileChooser(Landroid/webkit/WebView;Landroid/webkit/ValueCallback;Landroid/webkit/WebChromeClient$FileChooserParams;)Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/webkit/WebView;",
+            "Landroid/webkit/ValueCallback<",
+            "[",
+            "Landroid/net/Uri;",
+            ">;",
+            "Landroid/webkit/WebChromeClient$FileChooserParams;",
+            ")Z"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p3}, Landroid/webkit/WebChromeClient$FileChooserParams;->getMode()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    const/4 p3, 0x1
+
+    .line 6
+    if-ne p1, p3, :cond_0
+
+    .line 7
+    .line 8
+    move p1, p3
+
+    .line 9
+    goto :goto_0
+
+    .line 10
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 11
+    :goto_0
+    iget-object p0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 12
+    .line 13
+    const/4 v0, 0x0
+
+    .line 14
+    invoke-virtual {p0, v0, p2, p1}, Lim/delight/android/webview/AdvancedWebView;->c(Landroid/webkit/ValueCallback;Landroid/webkit/ValueCallback;Z)V
+
+    .line 15
+    .line 16
+    .line 17
+    return p3
+.end method
+
+.method public openFileChooser(Landroid/webkit/ValueCallback;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/webkit/ValueCallback<",
+            "Landroid/net/Uri;",
+            ">;)V"
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    .line 10
+    invoke-virtual {p0, p1, v0}, Lim/delight/android/webview/AdvancedWebView$b;->openFileChooser(Landroid/webkit/ValueCallback;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public openFileChooser(Landroid/webkit/ValueCallback;Ljava/lang/String;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/webkit/ValueCallback<",
+            "Landroid/net/Uri;",
+            ">;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    .line 9
+    invoke-virtual {p0, p1, p2, v0}, Lim/delight/android/webview/AdvancedWebView$b;->openFileChooser(Landroid/webkit/ValueCallback;Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public openFileChooser(Landroid/webkit/ValueCallback;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/webkit/ValueCallback<",
+            "Landroid/net/Uri;",
+            ">;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    const/4 p2, 0x0
+
+    .line 2
+    const/4 p3, 0x0
+
+    .line 3
+    iget-object p0, p0, Lim/delight/android/webview/AdvancedWebView$b;->a:Lim/delight/android/webview/AdvancedWebView;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2, p3}, Lim/delight/android/webview/AdvancedWebView;->c(Landroid/webkit/ValueCallback;Landroid/webkit/ValueCallback;Z)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

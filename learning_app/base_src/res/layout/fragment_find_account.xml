@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fragment_root" android:paddingTop="4.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="44.0dp">
+        <ImageButton android:id="@id/back" android:background="?android:selectableItemBackground" android:padding="6.0dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dp" app:srcCompat="@drawable/ic_action_bar_back" app:tint="@color/text_type1_secondary" />
+    </LinearLayout>
+    <TextView android:textSize="22.0dp" android:textStyle="bold" android:textColor="@color/text_type1_primary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/page_login__find_account" android:layout_below="@id/toolbar" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0dp" android:textColor="@color/text_type1_primary" android:gravity="center" android:id="@id/title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:layout_marginTop="12.0dp" android:layout_marginRight="30.0dp" android:text="@string/page_login__to_reset_your_password_please_confirm_your_account_first" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:layout_marginTop="29.0dp" android:layout_marginRight="30.0dp" android:layout_below="@id/title2">
+        <FrameLayout android:id="@id/mobile_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.sporty.android.common_ui.widgets.ClearEditText android:textSize="14.0dp" android:id="@id/mobile" android:background="@drawable/bg_outlined_line_type1_secondary_2_radius" android:paddingLeft="60.0dp" android:paddingRight="11.0dp" android:layout_width="match_parent" android:layout_height="44.0dp" android:hint="@string/page_login__mobile_number" android:maxLines="1" android:maxLength="@integer/mobile_max_length" android:digits="0123456789" android:inputType="phone" android:imeOptions="actionDone" />
+            <TextView android:textColor="@color/text_type1_secondary" android:layout_gravity="center_vertical" android:id="@id/prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dp" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="42.0dp">
+            <TextView android:textAppearance="@style/ErrorTextView" android:id="@id/error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_marginBottom="2.0dp" android:layout_below="@id/mobile_container" />
+        </FrameLayout>
+        <com.sportybet.android.widget.ProgressButton android:id="@id/log_in" android:layout_width="match_parent" android:layout_height="44.0dp" />
+    </LinearLayout>
+</RelativeLayout>

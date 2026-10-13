@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_bar" android:background="#e41827" android:layout_width="match_parent" android:layout_height="44.0dp">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/back" android:background="?android:selectableItemBackground" android:padding="16.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_action_bar_back" app:tint="?colorTitleBarTint" />
+        <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ffffff" android:gravity="center_vertical" android:id="@id/back_title" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/common_functions__deposit" android:singleLine="true" android:layout_weight="1.0" android:lineSpacingExtra="8.0sp" android:fontFamily="sans-serif-medium" />
+        <ImageButton android:id="@id/deposit_help_center_btn" android:background="?android:selectableItemBackground" android:layout_width="44.0dp" android:layout_height="match_parent" app:srcCompat="@drawable/ic_help_outline_black_24dp" app:tint="?colorTitleBarTint" />
+        <ImageButton android:id="@id/home" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dp" app:srcCompat="@drawable/ic_home" app:tint="@android:color/white" />
+    </LinearLayout>
+    <com.google.android.material.tabs.TabLayout android:textSize="14.0dp" android:textStyle="bold" android:textColor="#353a45" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/deposit_tab" android:layout_width="250.0dp" android:layout_height="48.0dp" android:textAllCaps="false" android:fontFamily="sans-serif" app:tabIndicatorColor="#0d9737" app:tabIndicatorHeight="3.0dp" app:tabTextAppearance="@style/CustomTabAppearance" />
+    <View android:background="@color/line_type1_primary" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/deposit_frame" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/InnerPaymentTabUnselected" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/B1_M" />
+    <ImageView android:id="@id/tab_icon" android:padding="4.0dp" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_icon_tip_2" app:tint="@color/icon_secondary" />
+</LinearLayout>

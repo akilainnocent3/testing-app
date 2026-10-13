@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="30.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:paddingLeft="12.0dp" android:paddingTop="3.0dp" android:paddingRight="12.0dp" android:paddingBottom="3.0dp" android:layout_width="50.0dp" android:layout_height="24.0dp" android:src="@drawable/spr_tips" />
+    <com.sportybet.plugin.realsports.widget.MarqueeView android:id="@id/mid_broadcast_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

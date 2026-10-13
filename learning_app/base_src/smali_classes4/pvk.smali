@@ -1,0 +1,30 @@
+.class public final synthetic Lpvk;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static a(Landroid/animation/ValueAnimator;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p0}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object p0
+
+    .line 8
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 9
+    .line 10
+    .line 11
+    return-object p0
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/text_type1_primary" android:id="@id/btn_odds" android:paddingLeft="16.0dp" android:paddingTop="10.0dp" android:paddingRight="16.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" android:paddingHorizontal="16.0dp" android:paddingVertical="10.0dp" />
+    <View android:background="@color/line_type1_primary" android:layout_width="match_parent" android:layout_height="1.0dp" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_horizontal" android:orientation="horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/countdown" android:background="?android:selectableItemBackground" android:padding="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_otp_verify__send_again" style="@style/Widget.App.CommonButton.NoBackground.Medium" />
+    <TextView android:textAppearance="@style/B1_R" android:textColor="@color/text_type1_primary" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ProgressBar android:id="@id/progress" android:visibility="visible" android:layout_width="16.0dp" android:layout_height="16.0dp" android:indeterminate="true" android:progressTint="#5881e3" android:indeterminateTint="#5881e3" />
+</merge>

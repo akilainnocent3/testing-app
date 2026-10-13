@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/diver_line" android:background="@color/line_type1_primary" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/text_type1_secondary" android:gravity="center" android:id="@id/results_load_more" android:layout_width="match_parent" android:layout_height="50.0dp" android:text="@string/bet_history__no_more_tickets" android:lineSpacingExtra="20.0sp" android:fontFamily="sans-serif" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/results_loading_progress" android:layout_width="30.0dp" android:layout_height="30.0dp" />
+</FrameLayout>

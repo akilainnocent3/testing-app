@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_container" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider" android:background="@color/background_type1_primary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginLeft="-10.0dp" android:layout_marginRight="-10.0dp" />
+    <RelativeLayout android:id="@id/title_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp">
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#1b1e25" android:gravity="center_vertical" android:id="@id/title" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="210.0dp" android:drawablePadding="10.0dp" android:fontFamily="sans-serif-medium" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/info" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dp" android:scaleType="fitXY" android:tint="@color/text_type1_secondary" android:layout_toRightOf="@id/title" android:layout_centerVertical="true" app:srcCompat="@drawable/spr_info" />
+        <ImageView android:id="@id/boost_sign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:src="@drawable/ic_odds_boost" android:layout_toRightOf="@id/info" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/fav" android:background="@drawable/transparent" android:padding="4.0dp" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginRight="10.0dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <androidx.gridlayout.widget.GridLayout android:id="@id/grid" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

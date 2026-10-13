@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/customTabLayout" android:layout_width="@dimen/_47sdp" android:layout_height="@dimen/_42sdp" android:maxWidth="@dimen/_46sdp" android:minHeight="@dimen/_42sdp" android:layout_marginEnd="6.5dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.cardview.widget.CardView android:id="@id/card" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="5.0dp">
+            <ImageView android:layout_gravity="start" android:id="@id/shimmer_black_line" android:background="@drawable/shimmer_dark_bg_lobby" android:layout_width="@dimen/_55sdp" android:layout_height="@dimen/_42sdp" android:layout_marginStart="-70.0dp" android:layout_marginEnd="@dimen/_47sdp" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

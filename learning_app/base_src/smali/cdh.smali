@@ -1,0 +1,47 @@
+.class public interface abstract Lcdh;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lzxc;
+
+
+# virtual methods
+.method public abstract b(IZ)Z
+.end method
+
+.method public abstract c([BIIZ)Z
+.end method
+
+.method public abstract e()V
+.end method
+
+.method public abstract f([BIIZ)Z
+.end method
+
+.method public abstract getLength()J
+.end method
+
+.method public abstract getPosition()J
+.end method
+
+.method public abstract h()J
+.end method
+
+.method public abstract i(I)V
+.end method
+
+.method public abstract j(I)I
+.end method
+
+.method public abstract k([BII)I
+.end method
+
+.method public abstract l(I)V
+.end method
+
+.method public abstract m([BII)V
+.end method
+
+.method public abstract readFully([BII)V
+.end method

@@ -1,0 +1,58 @@
+.class public final synthetic Lh7u;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:Lcom/sportybet/feature/loyalty/impl/notifications/presentation/mission/b;
+
+.field public final synthetic b:Lkotlin/jvm/functions/Function0;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/sportybet/feature/loyalty/impl/notifications/presentation/mission/b;Lkotlin/jvm/functions/Function0;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lh7u;->a:Lcom/sportybet/feature/loyalty/impl/notifications/presentation/mission/b;
+
+    iput-object p2, p0, Lh7u;->b:Lkotlin/jvm/functions/Function0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lh7u;->a:Lcom/sportybet/feature/loyalty/impl/notifications/presentation/mission/b;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, Lcom/sportybet/feature/loyalty/impl/notifications/presentation/mission/b;->a()V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object p0, p0, Lh7u;->b:Lkotlin/jvm/functions/Function0;
+
+    .line 7
+    .line 8
+    invoke-interface {p0}, Lkotlin/jvm/functions/Function0;->invoke()Ljava/lang/Object;
+
+    .line 9
+    .line 10
+    .line 11
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 12
+    .line 13
+    return-object p0
+.end method

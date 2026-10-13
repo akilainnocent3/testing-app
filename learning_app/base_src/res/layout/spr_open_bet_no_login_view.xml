@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/text_type1_primary" android:gravity="center" android:id="@id/open_bet_no_login_text" android:layout_width="200.0dp" android:layout_height="wrap_content" android:layout_marginTop="28.0dp" android:text="@string/bet_history__please_log_in_to_see_your_open_and_cashout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatButton android:textSize="14.0dp" android:textColor="@color/brand_secondary" android:id="@id/open_bet_login_btn" android:layout_width="wrap_content" android:layout_height="38.0dp" android:layout_marginTop="18.0dp" android:layout_marginBottom="30.0dp" android:text="@string/common_functions__log_in" android:textAllCaps="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/open_bet_no_login_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

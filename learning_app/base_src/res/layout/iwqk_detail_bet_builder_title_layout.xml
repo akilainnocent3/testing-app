@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/brand_secondary_disable" android:paddingLeft="8.0dp" android:paddingTop="4.0dp" android:paddingRight="8.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="34.0dp" android:paddingHorizontal="8.0dp" android:paddingVertical="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dp" android:textColor="@color/absolute_type2" android:id="@id/bet_builder_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

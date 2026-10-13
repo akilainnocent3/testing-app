@@ -1,0 +1,57 @@
+.class public final synthetic Lr5a0;
+.super Lojj;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lojj;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Lywk;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lywk;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object p0, p0, Ls16;->receiver:Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    check-cast p0, Lm5a0;
+
+    .line 9
+    .line 10
+    iget-object p0, p0, Lm5a0;->z:Ltp90;
+
+    .line 11
+    .line 12
+    invoke-virtual {p0, p1}, Ltp90;->a(Ljava/lang/Object;)Z
+
+    .line 13
+    .line 14
+    .line 15
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 16
+    .line 17
+    return-object p0
+.end method

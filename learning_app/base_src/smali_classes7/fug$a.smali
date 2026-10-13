@@ -1,0 +1,251 @@
+.class public final Lfug$a;
+.super Liel;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lfug;-><init>(Lbi60;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Liel;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic d:Lfug;
+
+
+# direct methods
+.method public constructor <init>(Lfug;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lfug$a;->d:Lfug;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Liel;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ldd70;Ljava/lang/Object;)V
+    .locals 3
+
+    .line 1
+    check-cast p2, Lay5;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 7
+    .line 8
+    .line 9
+    const/4 v0, 0x1
+
+    .line 10
+    iget-object v1, p2, Lay5;->a:Ljava/lang/String;
+
+    .line 11
+    .line 12
+    invoke-interface {p1, v0, v1}, Ldd70;->L(ILjava/lang/String;)V
+
+    .line 13
+    .line 14
+    .line 15
+    iget v0, p2, Lay5;->b:I
+
+    .line 16
+    .line 17
+    int-to-long v0, v0
+
+    .line 18
+    const/4 v2, 0x2
+
+    .line 19
+    invoke-interface {p1, v2, v0, v1}, Ldd70;->q(IJ)V
+
+    .line 20
+    .line 21
+    .line 22
+    const/4 v0, 0x3
+
+    .line 23
+    iget-object v1, p2, Lay5;->c:Ljava/lang/String;
+
+    .line 24
+    .line 25
+    invoke-interface {p1, v0, v1}, Ldd70;->L(ILjava/lang/String;)V
+
+    .line 26
+    .line 27
+    .line 28
+    iget-object p0, p0, Lfug$a;->d:Lfug;
+
+    .line 29
+    .line 30
+    iget-object p0, p0, Lfug;->c:Ltvg;
+
+    .line 31
+    .line 32
+    iget-object p2, p2, Lay5;->d:Lcom/sportybet/plugin/realsports/data/Event;
+
+    .line 33
+    .line 34
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 35
+    .line 36
+    .line 37
+    const/4 v0, 0x0
+
+    .line 38
+    if-nez p2, :cond_0
+
+    .line 39
+    .line 40
+    goto :goto_0
+
+    .line 41
+    :cond_0
+    :try_start_0
+    sget-object v1, Lo560;->b:Lo560$a;
+
+    .line 42
+    .line 43
+    invoke-virtual {p0}, Ltvg;->d()Lcom/sporty/android/core/model/json/JsonSerializeService;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object p0
+
+    .line 47
+    invoke-interface {p0, p2}, Lcom/sporty/android/core/model/json/JsonSerializeService;->toJson(Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 48
+    .line 49
+    .line 50
+    move-result-object v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 51
+    goto :goto_0
+
+    .line 52
+    :catchall_0
+    move-exception p0
+
+    .line 53
+    sget-object p2, Lo560;->b:Lo560$a;
+
+    .line 54
+    .line 55
+    new-instance p2, Lo560$b;
+
+    .line 56
+    .line 57
+    invoke-direct {p2, p0}, Lo560$b;-><init>(Ljava/lang/Throwable;)V
+
+    .line 58
+    .line 59
+    .line 60
+    invoke-static {p2}, Lo560;->a(Ljava/lang/Object;)Ljava/lang/Throwable;
+
+    .line 61
+    .line 62
+    .line 63
+    move-result-object p0
+
+    .line 64
+    if-eqz p0, :cond_1
+
+    .line 65
+    .line 66
+    sget-object p0, Lmtg0;->a:Lmtg0$a;
+
+    .line 67
+    .line 68
+    const-string p2, "SB_CACHE_DB"
+
+    .line 69
+    .line 70
+    invoke-virtual {p0, p2}, Lmtg0$a;->q(Ljava/lang/String;)V
+
+    .line 71
+    .line 72
+    .line 73
+    const/4 p2, 0x0
+
+    .line 74
+    new-array p2, p2, [Ljava/lang/Object;
+
+    .line 75
+    .line 76
+    const-string v1, "Event Convert to JS string failed"
+
+    .line 77
+    .line 78
+    invoke-virtual {p0, v1, p2}, Lmtg0$a;->a(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    .line 79
+    .line 80
+    .line 81
+    :cond_1
+    :goto_0
+    const/4 p0, 0x4
+
+    .line 82
+    if-nez v0, :cond_2
+
+    .line 83
+    .line 84
+    invoke-interface {p1, p0}, Ldd70;->r(I)V
+
+    .line 85
+    .line 86
+    .line 87
+    goto :goto_1
+
+    .line 88
+    :cond_2
+    invoke-interface {p1, p0, v0}, Ldd70;->L(ILjava/lang/String;)V
+
+    .line 89
+    .line 90
+    .line 91
+    :goto_1
+    return-void
+.end method
+
+.method public final b()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const-string p0, "INSERT OR REPLACE INTO `CacheEvent` (`eventId`,`productType`,`language`,`event`) VALUES (?,?,?,?)"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

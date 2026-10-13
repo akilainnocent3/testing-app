@@ -1,0 +1,28 @@
+.class public final Lb4b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    const-string v0, "https://console.firebase.google.com/project/"
+
+    .line 2
+    .line 3
+    const-string v1, "/performance/app/android:"
+
+    .line 4
+    .line 5
+    invoke-static {v0, p0, v1, p1}, Ly36;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    return-object p0
+.end method

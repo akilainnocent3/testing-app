@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dp" android:textStyle="bold" android:textColor="@color/text_type1_primary" android:paddingTop="2.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dp" android:text="@string/wap_home__grand_prize_winners" android:fontFamily="sans-serif" />
+    <com.sportybet.plugin.realsports.widget.MarqueeView android:id="@id/bottom_broadcast_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

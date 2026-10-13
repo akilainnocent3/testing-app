@@ -1,0 +1,44 @@
+.class public interface abstract Lkye0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a()J
+.end method
+
+.method public abstract b(Lhyv$b;)Lhyv$c;
+.end method
+
+.method public abstract c(J)V
+.end method
+
+.method public abstract clear()V
+.end method
+
+.method public abstract d()J
+.end method
+
+.method public abstract e()J
+.end method
+
+.method public abstract f(Lhyv$b;Lyin;Ljava/util/Map;J)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lhyv$b;",
+            "Lyin;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "+",
+            "Ljava/lang/Object;",
+            ">;J)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract g(J)V
+.end method
+
+.method public abstract h(Lhyv$b;)Z
+.end method

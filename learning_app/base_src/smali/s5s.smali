@@ -1,0 +1,58 @@
+.class public final Ls5s;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Ls5s$a;
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Lr6x;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lr6x<",
+            "Ls5s$a;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lr6x;
+
+    .line 5
+    .line 6
+    const/16 v1, 0x10
+
+    .line 7
+    .line 8
+    new-array v1, v1, [Ls5s$a;
+
+    .line 9
+    .line 10
+    invoke-direct {v0, v1}, Lr6x;-><init>([Ljava/lang/Object;)V
+
+    .line 11
+    .line 12
+    .line 13
+    iput-object v0, p0, Ls5s;->a:Lr6x;
+
+    .line 14
+    .line 15
+    return-void
+.end method

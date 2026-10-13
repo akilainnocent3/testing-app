@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="24.0dp" android:paddingRight="24.0dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/word_FD" android:paddingTop="2.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dp" android:layout_marginRight="16.0dp" android:src="@drawable/ic_flexible_active" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:gravity="left" android:id="@id/title" android:layout_width="match_parent" android:layout_height="28.0dp" android:layout_marginTop="20.0dp" android:minHeight="28.0dp" android:layout_toRightOf="@id/word_FD" android:layout_alignParentTop="true" android:lineSpacingExtra="8.0sp" />
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:gravity="left" android:id="@id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:maxLines="20" android:layout_below="@id/title" android:lineSpacingExtra="8.0sp" android:fontFamily="sans-serif" />
+</RelativeLayout>

@@ -1,0 +1,96 @@
+.class public final synthetic Lzgg0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 6
+
+    .line 1
+    check-cast p1, Lrhg0;
+
+    .line 2
+    .line 3
+    iget-object p0, p1, Ls72;->g:Lwk0;
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lwk0;->b:Ljava/lang/String;
+
+    .line 6
+    .line 7
+    iget-wide v0, p1, Ls72;->f:J
+
+    .line 8
+    .line 9
+    sget v2, Lamg0;->c:I
+
+    .line 10
+    .line 11
+    const-wide v2, 0xffffffffL
+
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    and-long/2addr v0, v2
+
+    .line 17
+    long-to-int v0, v0
+
+    .line 18
+    invoke-static {v0, p0}, Ld8t;->a(ILjava/lang/String;)I
+
+    .line 19
+    .line 20
+    .line 21
+    move-result p0
+
+    .line 22
+    const/4 v0, -0x1
+
+    .line 23
+    if-eq p0, v0, :cond_0
+
+    .line 24
+    .line 25
+    new-instance v0, Lzud;
+
+    .line 26
+    .line 27
+    iget-wide v4, p1, Ls72;->f:J
+
+    .line 28
+    .line 29
+    and-long v1, v4, v2
+
+    .line 30
+    .line 31
+    long-to-int p1, v1
+
+    .line 32
+    sub-int/2addr p0, p1
+
+    .line 33
+    const/4 p1, 0x0
+
+    .line 34
+    invoke-direct {v0, p1, p0}, Lzud;-><init>(II)V
+
+    .line 35
+    .line 36
+    .line 37
+    return-object v0
+
+    .line 38
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 39
+    return-object p0
+.end method

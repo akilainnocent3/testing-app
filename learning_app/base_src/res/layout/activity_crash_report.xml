@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#2979ff" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffff" android:padding="14.0sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You caught a bug, please take it back to the Android team, thank you! =)" />
+    <ScrollView android:padding="14.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="14.0dp" android:textColor="#000000" android:id="@id/details" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+    </ScrollView>
+</LinearLayout>

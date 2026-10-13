@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dp" android:width="220.0dp" android:viewportWidth="220.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$loyal_join_button__0" android:pathData="M1,5C1,2.79 2.79,1 5,1H215C217.21,1 219,2.79 219,5V35C219,37.21 217.21,39 215,39H5C2.79,39 1,37.21 1,35V5Z" android:strokeColor="@drawable/$loyal_join_button__1" android:strokeWidth="2.0" />
+</vector>

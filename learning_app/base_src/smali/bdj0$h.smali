@@ -1,0 +1,36 @@
+.class public final Lbdj0$h;
+.super Lbdj0;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lbdj0;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "h"
+.end annotation
+
+
+# virtual methods
+.method public final e(Landroid/view/View;F)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p2}, Ltup;->a(F)F
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    invoke-virtual {p1, p0}, Landroid/view/View;->setRotationY(F)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

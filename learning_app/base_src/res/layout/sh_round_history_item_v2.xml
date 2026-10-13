@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/coefficient_layout" android:background="@drawable/sh_previous_chip_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4sdp" android:layout_marginBottom="@dimen/_5sdp" android:layout_marginEnd="@dimen/_4sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_9ssp" android:textStyle="bold" android:id="@id/coefficient" android:paddingLeft="@dimen/_9sdp" android:paddingTop="@dimen/_2sdp" android:paddingRight="@dimen/_9sdp" android:paddingBottom="@dimen/_2sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.23X" android:lineSpacingExtra="0.0dp" style="@style/TextPrimaryBold" />
+</LinearLayout>

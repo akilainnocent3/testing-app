@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="60.0dp" android:paddingRight="60.0dp" android:paddingHorizontal="60.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_type1_secondary" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="22.0dp" android:text="@string/common_feedback__something_went_wrong_please_try_again_later" />
+    <Button android:textColor="@color/brand_secondary" android:id="@id/retry" android:background="@drawable/btn_border_rounded_bg" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="wrap_content" android:layout_height="36.0dp" android:minWidth="92.0dp" android:text="@string/common_functions__retry" android:textAllCaps="false" android:paddingHorizontal="10.0dp" />
+</merge>

@@ -1,0 +1,821 @@
+.class public Lcom/sporty/android/core/model/realsports/Order;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Comparable;
+.implements Landroid/os/Parcelable;
+.implements Lcom/sporty/android/core/model/realsports/liabilitycheck/LiabilityCheckResultDto;
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/sporty/android/core/model/realsports/Order;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field public allSelectionsAreFootball:Ljava/lang/Boolean;
+
+.field public allowMultiMaker:Ljava/lang/Boolean;
+
+.field public balance:Ljava/lang/Long;
+
+.field public betType:Ljava/lang/String;
+
+.field public bookingCode:Ljava/lang/String;
+
+.field public combinations:Ljava/lang/String;
+
+.field public correctEvents:I
+
+.field public createTime:J
+
+.field public cutbetWinningAmount:Ljava/lang/String;
+
+.field public exciseTax:Ljava/lang/String;
+
+.field public favor:Lcom/sporty/android/core/model/realsports/Favor;
+
+.field public favorAmount:Ljava/lang/String;
+
+.field public favorType:I
+
+.field public longPotWinning:J
+
+.field public maxPTWin:Ljava/lang/String;
+
+.field public maxWHTax:Ljava/lang/String;
+
+.field public orderId:Ljava/lang/String;
+
+.field public paymentAmount:Ljava/lang/String;
+
+.field public periodNumber:Ljava/lang/String;
+
+.field public potentialWinnings:Ljava/lang/String;
+
+.field public reachedLimits:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/sporty/android/core/model/patron/ReachedLimit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public rejectedSelections:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/sporty/android/core/model/realsports/liabilitycheck/LiabilityCheckDto;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public shareCode:Ljava/lang/String;
+
+.field public shortId:Ljava/lang/String;
+
+.field public status:I
+
+.field public totalBonus:Ljava/lang/String;
+
+.field public totalStake:Ljava/lang/String;
+
+.field public totalWinnings:Ljava/lang/String;
+
+.field public type:Ljava/lang/Integer;
+
+.field public winningStatus:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/sporty/android/core/model/realsports/Order$1;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lcom/sporty/android/core/model/realsports/Order$1;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lcom/sporty/android/core/model/realsports/Order;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    .line 137
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 138
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->cutbetWinningAmount:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/os/Parcel;)V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const-string v0, ""
+
+    .line 5
+    .line 6
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->cutbetWinningAmount:Ljava/lang/String;
+
+    .line 7
+    .line 8
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v0
+
+    .line 12
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->orderId:Ljava/lang/String;
+
+    .line 13
+    .line 14
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object v0
+
+    .line 18
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->totalStake:Ljava/lang/String;
+
+    .line 19
+    .line 20
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object v0
+
+    .line 24
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->totalWinnings:Ljava/lang/String;
+
+    .line 25
+    .line 26
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v0
+
+    .line 30
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->totalBonus:Ljava/lang/String;
+
+    .line 31
+    .line 32
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v0
+
+    .line 36
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->potentialWinnings:Ljava/lang/String;
+
+    .line 37
+    .line 38
+    invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-wide v0
+
+    .line 42
+    iput-wide v0, p0, Lcom/sporty/android/core/model/realsports/Order;->longPotWinning:J
+
+    .line 43
+    .line 44
+    invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-wide v0
+
+    .line 48
+    iput-wide v0, p0, Lcom/sporty/android/core/model/realsports/Order;->createTime:J
+
+    .line 49
+    .line 50
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 51
+    .line 52
+    .line 53
+    move-result-object v0
+
+    .line 54
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->shortId:Ljava/lang/String;
+
+    .line 55
+    .line 56
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    .line 57
+    .line 58
+    .line 59
+    move-result v0
+
+    .line 60
+    iput v0, p0, Lcom/sporty/android/core/model/realsports/Order;->status:I
+
+    .line 61
+    .line 62
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object v0
+
+    .line 66
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->betType:Ljava/lang/String;
+
+    .line 67
+    .line 68
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    .line 69
+    .line 70
+    .line 71
+    move-result v0
+
+    .line 72
+    iput v0, p0, Lcom/sporty/android/core/model/realsports/Order;->correctEvents:I
+
+    .line 73
+    .line 74
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 75
+    .line 76
+    .line 77
+    move-result-object v0
+
+    .line 78
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->periodNumber:Ljava/lang/String;
+
+    .line 79
+    .line 80
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 81
+    .line 82
+    .line 83
+    move-result-object v0
+
+    .line 84
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->combinations:Ljava/lang/String;
+
+    .line 85
+    .line 86
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object v0
+
+    .line 90
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->paymentAmount:Ljava/lang/String;
+
+    .line 91
+    .line 92
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    .line 93
+    .line 94
+    .line 95
+    move-result v0
+
+    .line 96
+    iput v0, p0, Lcom/sporty/android/core/model/realsports/Order;->winningStatus:I
+
+    .line 97
+    .line 98
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    .line 99
+    .line 100
+    .line 101
+    move-result v0
+
+    .line 102
+    iput v0, p0, Lcom/sporty/android/core/model/realsports/Order;->favorType:I
+
+    .line 103
+    .line 104
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 105
+    .line 106
+    .line 107
+    move-result-object v0
+
+    .line 108
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->favorAmount:Ljava/lang/String;
+
+    .line 109
+    .line 110
+    const-class v0, Lcom/sporty/android/core/model/realsports/Favor;
+
+    .line 111
+    .line 112
+    invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+
+    .line 113
+    .line 114
+    .line 115
+    move-result-object v0
+
+    .line 116
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
+
+    .line 117
+    .line 118
+    .line 119
+    move-result-object v0
+
+    .line 120
+    check-cast v0, Lcom/sporty/android/core/model/realsports/Favor;
+
+    .line 121
+    .line 122
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->favor:Lcom/sporty/android/core/model/realsports/Favor;
+
+    .line 123
+    .line 124
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 125
+    .line 126
+    .line 127
+    move-result-object v0
+
+    .line 128
+    iput-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->shareCode:Ljava/lang/String;
+
+    .line 129
+    .line 130
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    .line 131
+    .line 132
+    .line 133
+    move-result-object p1
+
+    .line 134
+    iput-object p1, p0, Lcom/sporty/android/core/model/realsports/Order;->exciseTax:Ljava/lang/String;
+
+    .line 135
+    .line 136
+    return-void
+.end method
+
+
+# virtual methods
+.method public compareTo(Ljava/lang/Object;)I
+    .locals 3
+
+    .line 1
+    instance-of v0, p1, Lcom/sporty/android/core/model/realsports/Order;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_2
+
+    .line 4
+    .line 5
+    check-cast p1, Lcom/sporty/android/core/model/realsports/Order;
+
+    .line 6
+    .line 7
+    iget-wide v0, p0, Lcom/sporty/android/core/model/realsports/Order;->createTime:J
+
+    .line 8
+    .line 9
+    iget-wide p0, p1, Lcom/sporty/android/core/model/realsports/Order;->createTime:J
+
+    .line 10
+    .line 11
+    cmp-long v2, v0, p0
+
+    .line 12
+    .line 13
+    if-gez v2, :cond_0
+
+    .line 14
+    .line 15
+    const/4 p0, 0x1
+
+    .line 16
+    return p0
+
+    .line 17
+    :cond_0
+    cmp-long p0, v0, p0
+
+    .line 18
+    .line 19
+    if-nez p0, :cond_1
+
+    .line 20
+    .line 21
+    const/4 p0, 0x0
+
+    .line 22
+    return p0
+
+    .line 23
+    :cond_1
+    const/4 p0, -0x1
+
+    .line 24
+    return p0
+
+    .line 25
+    :cond_2
+    const/4 p0, -0x2
+
+    .line 26
+    return p0
+.end method
+
+.method public describeContents()I
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 2
+
+    .line 1
+    if-ne p0, p1, :cond_0
+
+    .line 2
+    .line 3
+    const/4 p0, 0x1
+
+    .line 4
+    return p0
+
+    .line 5
+    :cond_0
+    if-eqz p1, :cond_2
+
+    .line 6
+    .line 7
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v1
+
+    .line 15
+    if-eq v0, v1, :cond_1
+
+    .line 16
+    .line 17
+    goto :goto_0
+
+    .line 18
+    :cond_1
+    check-cast p1, Lcom/sporty/android/core/model/realsports/Order;
+
+    .line 19
+    .line 20
+    iget-object p0, p0, Lcom/sporty/android/core/model/realsports/Order;->orderId:Ljava/lang/String;
+
+    .line 21
+    .line 22
+    iget-object p1, p1, Lcom/sporty/android/core/model/realsports/Order;->orderId:Ljava/lang/String;
+
+    .line 23
+    .line 24
+    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 25
+    .line 26
+    .line 27
+    move-result p0
+
+    .line 28
+    return p0
+
+    .line 29
+    :cond_2
+    :goto_0
+    const/4 p0, 0x0
+
+    .line 30
+    return p0
+.end method
+
+.method public getAllSelectionsAreFootball()Ljava/lang/Boolean;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/sporty/android/core/model/realsports/Order;->allSelectionsAreFootball:Ljava/lang/Boolean;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getAllowMultiMaker()Ljava/lang/Boolean;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/sporty/android/core/model/realsports/Order;->allowMultiMaker:Ljava/lang/Boolean;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getBookingCode()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/sporty/android/core/model/realsports/Order;->bookingCode:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getRejectedSelections()Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/sporty/android/core/model/realsports/liabilitycheck/LiabilityCheckDto;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcom/sporty/android/core/model/realsports/Order;->rejectedSelections:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getTypeId()Ljava/lang/Integer;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/sporty/android/core/model/realsports/Order;->type:Ljava/lang/Integer;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public hashCode()I
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/sporty/android/core/model/realsports/Order;->orderId:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method
+
+.method public writeToParcel(Landroid/os/Parcel;I)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->orderId:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->totalStake:Ljava/lang/String;
+
+    .line 7
+    .line 8
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->totalWinnings:Ljava/lang/String;
+
+    .line 12
+    .line 13
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 14
+    .line 15
+    .line 16
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->totalBonus:Ljava/lang/String;
+
+    .line 17
+    .line 18
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->potentialWinnings:Ljava/lang/String;
+
+    .line 22
+    .line 23
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 24
+    .line 25
+    .line 26
+    iget-wide v0, p0, Lcom/sporty/android/core/model/realsports/Order;->createTime:J
+
+    .line 27
+    .line 28
+    invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
+
+    .line 29
+    .line 30
+    .line 31
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->shortId:Ljava/lang/String;
+
+    .line 32
+    .line 33
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 34
+    .line 35
+    .line 36
+    iget v0, p0, Lcom/sporty/android/core/model/realsports/Order;->status:I
+
+    .line 37
+    .line 38
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 39
+    .line 40
+    .line 41
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->betType:Ljava/lang/String;
+
+    .line 42
+    .line 43
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 44
+    .line 45
+    .line 46
+    iget v0, p0, Lcom/sporty/android/core/model/realsports/Order;->correctEvents:I
+
+    .line 47
+    .line 48
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 49
+    .line 50
+    .line 51
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->periodNumber:Ljava/lang/String;
+
+    .line 52
+    .line 53
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 54
+    .line 55
+    .line 56
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->combinations:Ljava/lang/String;
+
+    .line 57
+    .line 58
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 59
+    .line 60
+    .line 61
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->paymentAmount:Ljava/lang/String;
+
+    .line 62
+    .line 63
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 64
+    .line 65
+    .line 66
+    iget v0, p0, Lcom/sporty/android/core/model/realsports/Order;->winningStatus:I
+
+    .line 67
+    .line 68
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 69
+    .line 70
+    .line 71
+    iget v0, p0, Lcom/sporty/android/core/model/realsports/Order;->favorType:I
+
+    .line 72
+    .line 73
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 74
+    .line 75
+    .line 76
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->favorAmount:Ljava/lang/String;
+
+    .line 77
+    .line 78
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 79
+    .line 80
+    .line 81
+    iget-object v0, p0, Lcom/sporty/android/core/model/realsports/Order;->favor:Lcom/sporty/android/core/model/realsports/Favor;
+
+    .line 82
+    .line 83
+    invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
+
+    .line 84
+    .line 85
+    .line 86
+    iget-object p2, p0, Lcom/sporty/android/core/model/realsports/Order;->shareCode:Ljava/lang/String;
+
+    .line 87
+    .line 88
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 89
+    .line 90
+    .line 91
+    iget-object p0, p0, Lcom/sporty/android/core/model/realsports/Order;->exciseTax:Ljava/lang/String;
+
+    .line 92
+    .line 93
+    invoke-virtual {p1, p0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 94
+    .line 95
+    .line 96
+    return-void
+.end method

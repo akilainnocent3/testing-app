@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/absolute_type1" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/otp_input_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dp" android:textStyle="normal" android:textColor="@color/text_type1_secondary" android:id="@id/otp_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dp" android:layout_centerVertical="true" />
+        <EditText android:textSize="14.0dp" android:id="@id/otp_number" android:background="@drawable/bg_otp_edit_text" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="match_parent" android:layout_height="48.0dp" android:maxLength="6" android:layout_centerVertical="true" android:inputType="number" />
+        <ImageView android:id="@id/otp_clear_all" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginRight="16.0dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:srcCompat="@drawable/otp_ic_delete_20dp" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/ErrorTextView" android:textStyle="normal" android:gravity="start" android:id="@id/error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dp" android:layout_marginTop="4.0dp" android:lineSpacingExtra="8.0dp" android:fontFamily="sans-serif" />
+</LinearLayout>

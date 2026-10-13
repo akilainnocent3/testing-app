@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/background_hint_type1" android:paddingTop="1.0dp" android:paddingBottom="1.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginLeft="11.0dp" android:tint="@color/hint_icon_tint" android:rotation="180.0" android:layout_marginStart="11.0dp" app:srcCompat="@drawable/spr_ic_info_black_24dp" />
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/text_type1_primary" android:layout_gravity="center_vertical" android:id="@id/top_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dp" android:text="@string/bet_history__ticket_is_under_grand_prize_auditing" android:lineSpacingExtra="2.0sp" android:fontFamily="sans-serif" android:layout_marginStart="11.0dp" />
+</LinearLayout>

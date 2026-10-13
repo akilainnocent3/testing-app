@@ -1,0 +1,46 @@
+.class public final synthetic Lv2k;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lb7b;
+
+
+# direct methods
+.method public static synthetic a(Ljava/lang/StringBuilder;Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    const-string v0, " at path "
+
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    new-instance p1, Lelp;
+
+    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+
+# virtual methods
+.method public accept(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/lang/Throwable;
+
+    .line 2
+    .line 3
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 4
+    .line 5
+    return-void
+.end method

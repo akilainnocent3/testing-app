@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_1" android:layout_width="106.0dp" android:layout_height="56.0dp">
+        <TextView android:textSize="12.0dp" android:textColor="@color/text_type1_primary" android:gravity="center" android:id="@id/market_1" android:background="@drawable/spr_selector_bg_swipe_bet_market_setting" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="4.0dp" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/item_2" android:layout_width="106.0dp" android:layout_height="56.0dp">
+        <TextView android:textSize="12.0dp" android:textColor="@color/text_type1_primary" android:gravity="center" android:id="@id/market_2" android:background="@drawable/spr_selector_bg_swipe_bet_market_setting" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="4.0dp" />
+    </RelativeLayout>
+</LinearLayout>

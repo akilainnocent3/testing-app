@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.0dp" android:width="30.0dp" android:viewportWidth="30.0" android:viewportHeight="30.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/custom_bg_disable" android:pathData="M15,15m-10.455,0a10.455,10.455 0,1 1,20.909 0a10.455,10.455 0,1 1,-20.909 0" android:strokeColor="@color/custom_bg_disable" android:strokeWidth="0.909091" />
+    <path android:fillColor="@color/bg_primary_d_base" android:pathData="M15,15m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+</vector>

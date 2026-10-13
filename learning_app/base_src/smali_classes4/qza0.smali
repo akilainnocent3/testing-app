@@ -1,0 +1,170 @@
+.class public final synthetic Lqza0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# instance fields
+.field public final synthetic a:Lkotlin/jvm/functions/Function0;
+
+.field public final synthetic b:Lkotlin/jvm/functions/Function1;
+
+.field public final synthetic c:Lkotlin/jvm/functions/Function0;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p2, p0, Lqza0;->a:Lkotlin/jvm/functions/Function0;
+
+    iput-object p1, p0, Lqza0;->b:Lkotlin/jvm/functions/Function1;
+
+    iput-object p3, p0, Lqza0;->c:Lkotlin/jvm/functions/Function0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 9
+
+    .line 1
+    move-object v7, p1
+
+    .line 2
+    check-cast v7, Landroidx/compose/runtime/a;
+
+    .line 3
+    .line 4
+    check-cast p2, Ljava/lang/Integer;
+
+    .line 5
+    .line 6
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
+
+    .line 7
+    .line 8
+    .line 9
+    move-result p1
+
+    .line 10
+    and-int/lit8 p2, p1, 0x3
+
+    .line 11
+    .line 12
+    const/4 v0, 0x2
+
+    .line 13
+    const/4 v1, 0x1
+
+    .line 14
+    const/4 v2, 0x0
+
+    .line 15
+    if-eq p2, v0, :cond_0
+
+    .line 16
+    .line 17
+    move p2, v1
+
+    .line 18
+    goto :goto_0
+
+    .line 19
+    :cond_0
+    move p2, v2
+
+    .line 20
+    :goto_0
+    and-int/2addr p1, v1
+
+    .line 21
+    invoke-interface {v7, p1, p2}, Landroidx/compose/runtime/a;->q(IZ)Z
+
+    .line 22
+    .line 23
+    .line 24
+    move-result p1
+
+    .line 25
+    if-eqz p1, :cond_1
+
+    .line 26
+    .line 27
+    const p1, 0x7f141937
+
+    .line 28
+    .line 29
+    .line 30
+    new-array p2, v2, [Ljava/lang/Object;
+
+    .line 31
+    .line 32
+    invoke-static {p1, p2, v7}, Lvw40;->a(I[Ljava/lang/Object;Landroidx/compose/runtime/a;)Ljava/lang/String;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v0
+
+    .line 36
+    const p1, 0x7f08044e
+
+    .line 37
+    .line 38
+    .line 39
+    invoke-static {p1, v2, v7}, Lu800;->a(IILandroidx/compose/runtime/a;)Ls800;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object v3
+
+    .line 43
+    const/4 v8, 0x6
+
+    .line 44
+    const-wide/16 v1, 0x0
+
+    .line 45
+    .line 46
+    iget-object v4, p0, Lqza0;->a:Lkotlin/jvm/functions/Function0;
+
+    .line 47
+    .line 48
+    iget-object v5, p0, Lqza0;->b:Lkotlin/jvm/functions/Function1;
+
+    .line 49
+    .line 50
+    iget-object v6, p0, Lqza0;->c:Lkotlin/jvm/functions/Function0;
+
+    .line 51
+    .line 52
+    invoke-static/range {v0 .. v8}, Leo80;->b(Ljava/lang/String;JLs800;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/a;I)V
+
+    .line 53
+    .line 54
+    .line 55
+    goto :goto_1
+
+    .line 56
+    :cond_1
+    invoke-interface {v7}, Landroidx/compose/runtime/a;->G()V
+
+    .line 57
+    .line 58
+    .line 59
+    :goto_1
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 60
+    .line 61
+    return-object p0
+.end method

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="12.0dp" android:layout_width="match_parent" android:layout_height="71.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearlayout_match_event_spinner_outcome" android:layout_width="0.0dp" android:layout_height="wrap_content" android:paddingStart="4.0dp" android:paddingEnd="10.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.sportybet.android.instantwin.presentation.widget.OutcomeSpinnerLayout android:id="@id/outcome_layout" android:layout_width="0.0dp" android:layout_height="34.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/line_type1_primary" android:layout_width="0.0dp" android:layout_height="1.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

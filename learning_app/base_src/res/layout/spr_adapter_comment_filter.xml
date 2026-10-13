@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/filter_container" android:paddingLeft="16.0dp" android:paddingTop="16.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/text_type1_primary" android:id="@id/filter_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Newest" />
+        <ImageView android:layout_gravity="center" android:layout_width="12.0dp" android:layout_height="12.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/icon_arrow_filter_down" />
+    </LinearLayout>
+    <FrameLayout android:paddingTop="10.0dp" android:paddingRight="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/filter_container">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.sporty.android.common_ui.widgets.CircleImageView android:id="@id/select_info" android:layout_width="18.0dp" android:layout_height="18.0dp" android:layout_marginEnd="12.0dp" app:srcCompat="@drawable/ic_info_vector" app:tint="@color/text_type1_primary" />
+            <com.sporty.android.common_ui.widgets.CircleImageView android:id="@id/select_global" android:layout_width="18.0dp" android:layout_height="18.0dp" app:srcCompat="@drawable/ic_sportybet_logo_flag" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

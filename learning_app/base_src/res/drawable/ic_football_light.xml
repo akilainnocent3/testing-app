@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dp" android:width="125.0dp" android:viewportWidth="125.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_football_light__0" android:pathData="M0,0h125v48h-125z" android:strokeAlpha="0.7" android:fillAlpha="0.7" />
+    <path android:fillColor="@drawable/$ic_football_light__1" android:pathData="M0,12h125v24h-125z" android:strokeAlpha="0.7" android:fillAlpha="0.7" />
+</vector>

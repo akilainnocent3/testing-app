@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/spr_gift_pop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginRight="20.0dp" android:minWidth="122.0dp" android:minHeight="65.0dp" android:backgroundTint="@color/background_type1_quaternary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/get_gifts_img" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginLeft="15.0dp" android:src="@drawable/spr_cake" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" />
+    <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/brand_secondary" android:gravity="center_vertical" android:id="@id/get_gifts_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dp" android:text="@string/wap_home__get_gifts" android:layout_toRightOf="@id/get_gifts_img" android:layout_centerVertical="true" android:fontFamily="sans-serif" android:layout_marginStart="7.0dp" />
+    <ImageView android:id="@id/get_gifts_close" android:padding="12.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_toRightOf="@id/get_gifts_view" android:layout_centerVertical="true" android:layout_toEndOf="@id/get_gifts_view" />
+</RelativeLayout>

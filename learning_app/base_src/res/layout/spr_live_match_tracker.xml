@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/live_tracker_container" android:layout_width="match_parent" android:layout_height="360.0dp" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <WebView android:layout_gravity="bottom" android:id="@id/live_match_tracker" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+    <View android:id="@id/mask" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

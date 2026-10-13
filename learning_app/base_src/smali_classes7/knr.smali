@@ -1,0 +1,25 @@
+.class public final Lknr;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final synthetic a:I
+
+
+# direct methods
+.method public static final a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lkotlin/Pair;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0, p1}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+.end method

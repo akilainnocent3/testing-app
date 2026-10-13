@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="48.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="4.0dp" android:baselineAligned="false">
+        <RelativeLayout android:id="@id/id_all_tab_ll" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/text_type1_tertiary" android:gravity="center" android:id="@id/tab1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_functions__all" android:layout_centerVertical="true" android:fontFamily="sans-serif" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/id_settled_tab_ll" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_type1_tertiary" android:gravity="center" android:id="@id/tab2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bet_history__settled" android:layout_centerVertical="true" android:fontFamily="sans-serif" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/id_unsettled_tab_ll" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_type1_tertiary" android:gravity="center" android:id="@id/tab3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bet_history__unsettled" android:layout_centerVertical="true" android:fontFamily="sans-serif" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/id_tab_line_iv" android:background="@color/brand_quaternary" android:layout_width="120.0dp" android:layout_height="3.0dp" android:layout_marginBottom="1.0dp" android:layout_alignParentBottom="true" android:contentDescription="@string/app_common__tab_l" />
+    <View android:background="@color/line_type1_primary" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,52 @@
+.class public final synthetic Lcqg;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic a:Lcom/sportybet/plugin/realsports/data/Event;
+
+.field public final synthetic b:Ljava/lang/String;
+
+.field public final synthetic c:Ljava/lang/String;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/sportybet/plugin/realsports/data/Event;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcqg;->a:Lcom/sportybet/plugin/realsports/data/Event;
+
+    iput-object p2, p0, Lcqg;->b:Ljava/lang/String;
+
+    iput-object p3, p0, Lcqg;->c:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcqg;->c:Ljava/lang/String;
+
+    check-cast p1, Lcom/sportybet/ntespm/socket/TopicInfo;
+
+    iget-object v1, p0, Lcqg;->a:Lcom/sportybet/plugin/realsports/data/Event;
+
+    iget-object p0, p0, Lcqg;->b:Ljava/lang/String;
+
+    invoke-static {v1, p0, v0, p1}, Lcom/sportybet/plugin/realsports/data/Event;->a(Lcom/sportybet/plugin/realsports/data/Event;Ljava/lang/String;Ljava/lang/String;Lcom/sportybet/ntespm/socket/TopicInfo;)Lkotlin/Unit;
+
+    move-result-object p0
+
+    return-object p0
+.end method

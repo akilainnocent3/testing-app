@@ -1,0 +1,238 @@
+.class public final synthetic Lyal;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Ljava/lang/Object;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/Object;I)V
+    .locals 0
+
+    .line 1
+    iput p2, p0, Lyal;->a:I
+
+    iput-object p1, p0, Lyal;->b:Ljava/lang/Object;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 3
+
+    .line 1
+    iget p1, p0, Lyal;->a:I
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lyal;->b:Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    packed-switch p1, :pswitch_data_0
+
+    .line 6
+    .line 7
+    .line 8
+    check-cast p0, Lq2h0;
+
+    .line 9
+    .line 10
+    iget-object p1, p0, Lq2h0;->a:Landroidx/fragment/app/e;
+
+    .line 11
+    .line 12
+    const v0, 0x7f141ff4
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 20
+    .line 21
+    .line 22
+    iput-object v0, p0, Lq2h0;->y:Ljava/lang/String;
+
+    .line 23
+    .line 24
+    iget-object v1, p0, Lq2h0;->b:Lfr20;
+
+    .line 25
+    .line 26
+    iget-object v2, p0, Lq2h0;->w:Ljava/lang/String;
+
+    .line 27
+    .line 28
+    invoke-virtual {v1, v2, v0}, Lfr20;->H1(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 29
+    .line 30
+    .line 31
+    invoke-virtual {p0}, Lq2h0;->c()Ltr20;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v0
+
+    .line 35
+    iget-object v0, v0, Ltr20;->w:Landroidx/appcompat/widget/AppCompatTextView;
+
+    .line 36
+    .line 37
+    const v1, 0x7f0606ae
+
+    .line 38
+    .line 39
+    .line 40
+    invoke-virtual {p1, v1}, Landroid/content/Context;->getColor(I)I
+
+    .line 41
+    .line 42
+    .line 43
+    move-result v2
+
+    .line 44
+    invoke-virtual {v0, v2}, Landroid/view/View;->setBackgroundColor(I)V
+
+    .line 45
+    .line 46
+    .line 47
+    invoke-virtual {p0}, Lq2h0;->c()Ltr20;
+
+    .line 48
+    .line 49
+    .line 50
+    move-result-object v0
+
+    .line 51
+    iget-object v0, v0, Ltr20;->A:Landroidx/appcompat/widget/AppCompatTextView;
+
+    .line 52
+    .line 53
+    invoke-virtual {p1, v1}, Landroid/content/Context;->getColor(I)I
+
+    .line 54
+    .line 55
+    .line 56
+    move-result v1
+
+    .line 57
+    invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundColor(I)V
+
+    .line 58
+    .line 59
+    .line 60
+    invoke-virtual {p0}, Lq2h0;->c()Ltr20;
+
+    .line 61
+    .line 62
+    .line 63
+    move-result-object v0
+
+    .line 64
+    iget-object v0, v0, Ltr20;->E:Landroidx/appcompat/widget/AppCompatTextView;
+
+    .line 65
+    .line 66
+    const v1, 0x7f06009f
+
+    .line 67
+    .line 68
+    .line 69
+    invoke-virtual {p1, v1}, Landroid/content/Context;->getColor(I)I
+
+    .line 70
+    .line 71
+    .line 72
+    move-result p1
+
+    .line 73
+    invoke-virtual {v0, p1}, Landroid/view/View;->setBackgroundColor(I)V
+
+    .line 74
+    .line 75
+    .line 76
+    iget-object p1, p0, Lq2h0;->w:Ljava/lang/String;
+
+    .line 77
+    .line 78
+    iget-object v0, p0, Lq2h0;->f:Larw;
+
+    .line 79
+    .line 80
+    iget-object v1, p0, Lq2h0;->i:Lbrw;
+
+    .line 81
+    .line 82
+    invoke-virtual {p0, p1, v0, v1}, Lq2h0;->d(Ljava/lang/String;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V
+
+    .line 83
+    .line 84
+    .line 85
+    return-void
+
+    .line 86
+    :pswitch_0
+    check-cast p0, Lfd;
+
+    .line 87
+    .line 88
+    sget p1, Lcom/sportybet/android/globalpay/GlobalDepositActivity;->w:I
+
+    .line 89
+    .line 90
+    iget-object p0, p0, Lfd;->f:Lcom/google/android/material/tabs/TabLayout;
+
+    .line 91
+    .line 92
+    const/4 p1, 0x0
+
+    .line 93
+    invoke-virtual {p0, p1}, Lcom/google/android/material/tabs/TabLayout;->k(I)Lcom/google/android/material/tabs/TabLayout$g;
+
+    .line 94
+    .line 95
+    .line 96
+    move-result-object p1
+
+    .line 97
+    const/4 v0, 0x1
+
+    .line 98
+    invoke-virtual {p0, p1, v0}, Lcom/google/android/material/tabs/TabLayout;->s(Lcom/google/android/material/tabs/TabLayout$g;Z)V
+
+    .line 99
+    .line 100
+    .line 101
+    return-void
+
+    .line 102
+    nop
+
+    .line 103
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

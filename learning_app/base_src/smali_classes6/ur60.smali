@@ -1,0 +1,44 @@
+.class public final synthetic Lur60;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static a(Landroid/widget/TextView;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 17
+    .line 18
+    .line 19
+    return-void
+.end method

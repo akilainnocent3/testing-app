@@ -1,0 +1,120 @@
+.class public final synthetic Lw310;
+.super Lojj;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lojj;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 14
+
+    .line 1
+    iget-object p0, p0, Ls16;->receiver:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    check-cast p0, Ll410;
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lo7x;->a:Lbke0;
+
+    .line 6
+    .line 7
+    :cond_0
+    invoke-virtual {p0}, Lbke0;->getValue()Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    move-object v1, v0
+
+    .line 12
+    check-cast v1, Le410;
+
+    .line 13
+    .line 14
+    iget-boolean v2, v1, Le410;->j:Z
+
+    .line 15
+    .line 16
+    xor-int/lit8 v11, v2, 0x1
+
+    .line 17
+    .line 18
+    const/4 v12, 0x0
+
+    .line 19
+    const/16 v13, 0x5ff
+
+    .line 20
+    .line 21
+    const/4 v2, 0x0
+
+    .line 22
+    const/4 v3, 0x0
+
+    .line 23
+    const/4 v4, 0x0
+
+    .line 24
+    const/4 v5, 0x0
+
+    .line 25
+    const/4 v6, 0x0
+
+    .line 26
+    const/4 v7, 0x0
+
+    .line 27
+    const/4 v8, 0x0
+
+    .line 28
+    const/4 v9, 0x0
+
+    .line 29
+    const/4 v10, 0x0
+
+    .line 30
+    invoke-static/range {v1 .. v13}, Le410;->a(Le410;Ljava/lang/String;Ljava/lang/String;Lkjg0;Lkjg0;Lkjg0;Lcom/sporty/android/common_ui/uitext/UiText;Ljava/lang/String;ZZZLoj50;I)Le410;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v1
+
+    .line 34
+    invoke-virtual {p0, v0, v1}, Lbke0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 35
+    .line 36
+    .line 37
+    move-result v0
+
+    .line 38
+    if-eqz v0, :cond_0
+
+    .line 39
+    .line 40
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 41
+    .line 42
+    return-object p0
+.end method

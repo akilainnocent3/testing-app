@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/root" android:layout_width="match_parent" android:layout_height="42.0dp">
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#353a45" android:gravity="end|center" android:id="@id/event_size" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="17.0dp" android:layout_alignParentRight="true" android:fontFamily="sans-serif" android:layout_marginEnd="17.0dp" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#1b1e25" android:gravity="center_vertical" android:id="@id/event_title" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="10.0dp" android:singleLine="true" android:layout_toLeftOf="@id/event_size" android:fontFamily="sans-serif-medium" android:layout_marginEnd="10.0dp" android:layout_toStartOf="@id/event_size" />
+        <View android:id="@id/bottom_divider_line" android:background="#eaecef" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

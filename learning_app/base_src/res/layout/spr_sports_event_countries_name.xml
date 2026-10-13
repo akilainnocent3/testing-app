@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dp" android:textStyle="bold" android:textColor="@color/text_type1_primary" android:id="@id/sports_event_countries_text" android:paddingTop="20.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp" android:text="@string/wap_home__countries" android:textAllCaps="true" android:fontFamily="sans-serif" android:layout_marginStart="6.0dp" />
+    <TextView android:textSize="12.0dp" android:textStyle="normal" android:textColor="@color/text_type1_primary" android:gravity="center_vertical" android:id="@id/az_title" android:background="@color/background_type1_primary" android:paddingLeft="10.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="24.0dp" android:fontFamily="sans-serif" />
+</LinearLayout>

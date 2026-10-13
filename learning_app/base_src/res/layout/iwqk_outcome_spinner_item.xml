@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/custom_background_type1_primary_type2" android:paddingTop="2.0dp" android:paddingBottom="2.0dp" android:layout_width="match_parent" android:layout_height="38.0dp" android:paddingVertical="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dp" android:textColor="@color/text_type1_secondary" android:gravity="center" android:id="@id/spinner_text" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:fontFamily="sans-serif" />
+    <com.sportybet.android.instantwin.presentation.widget.OutcomeButton android:id="@id/outcome1" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <com.sportybet.android.instantwin.presentation.widget.OutcomeButton android:id="@id/outcome2" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginLeft="2.0dp" android:layout_weight="1.0" />
+    <com.sportybet.android.instantwin.presentation.widget.OutcomeButton android:id="@id/outcome3" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginLeft="2.0dp" android:layout_weight="1.0" />
+</LinearLayout>

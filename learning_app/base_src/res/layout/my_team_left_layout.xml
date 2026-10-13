@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/my_team_left_item" android:background="@drawable/my_team_left_bg" android:paddingLeft="12.0dp" android:paddingTop="16.0dp" android:paddingRight="12.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dp" android:textColor="@color/my_team_left_s_text_color" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/count" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="12.0dp" android:textStyle="normal" android:textColor="@color/my_team_left_s_text_color" android:ellipsize="end" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="14.0dp" android:textStyle="normal" android:textColor="@color/my_team_left_text_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+    </LinearLayout>
+</RelativeLayout>

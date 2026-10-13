@@ -1,0 +1,56 @@
+.class public interface abstract Lcom/sportybet/feature/payment/impl/withdraw/presentation/model/WithdrawConfirmation;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/Parcelable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/sportybet/feature/payment/impl/withdraw/presentation/model/WithdrawConfirmation$a;,
+        Lcom/sportybet/feature/payment/impl/withdraw/presentation/model/WithdrawConfirmation$Bank;,
+        Lcom/sportybet/feature/payment/impl/withdraw/presentation/model/WithdrawConfirmation$MobileMoney;,
+        Lcom/sportybet/feature/payment/impl/withdraw/presentation/model/WithdrawConfirmation$Partner;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0008w\u0018\u00002\u00020\u0001:\u0004\u0002\u0003\u0004\u0005\u0082\u0001\u0003\u0006\u0007\u0008\u00a8\u0006\t\u00c0\u0006\u0003"
+    }
+    d2 = {
+        "Lcom/sportybet/feature/payment/impl/withdraw/presentation/model/WithdrawConfirmation;",
+        "Landroid/os/Parcelable;",
+        "Bank",
+        "MobileMoney",
+        "Partner",
+        "a",
+        "Lcom/sportybet/feature/payment/impl/withdraw/presentation/model/WithdrawConfirmation$Bank;",
+        "Lcom/sportybet/feature/payment/impl/withdraw/presentation/model/WithdrawConfirmation$MobileMoney;",
+        "Lcom/sportybet/feature/payment/impl/withdraw/presentation/model/WithdrawConfirmation$Partner;",
+        "impl"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x4,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# virtual methods
+.method public abstract d0()Ljava/math/BigDecimal;
+.end method
+
+.method public abstract g0()Ljava/math/BigDecimal;
+.end method
+
+.method public abstract getWhTax()Ljava/math/BigDecimal;
+.end method
+
+.method public abstract o()Ljava/math/BigDecimal;
+.end method

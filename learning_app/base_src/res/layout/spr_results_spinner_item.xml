@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="43.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="#ffffff" android:gravity="start|center" android:id="@id/score_name" android:layout_width="wrap_content" android:layout_height="42.0dp" android:layout_marginLeft="15.0dp" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ffffff" android:gravity="end|center" android:id="@id/score_value" android:layout_width="60.0dp" android:layout_height="42.0dp" android:layout_marginRight="15.0dp" android:layout_alignParentRight="true" android:fontFamily="sans-serif-medium" />
+    <View android:id="@id/divider_line" android:background="#777d86" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

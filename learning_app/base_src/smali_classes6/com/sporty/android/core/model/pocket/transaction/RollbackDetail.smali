@@ -1,0 +1,33 @@
+.class public Lcom/sporty/android/core/model/pocket/transaction/RollbackDetail;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public away:Ljava/lang/String;
+
+.field public betStatus:Ljava/lang/String;
+
+.field public gameId:Ljava/lang/String;
+
+.field public home:Ljava/lang/String;
+
+.field public market:Ljava/lang/String;
+
+.field public rollbackTime:J
+
+.field public selection:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

@@ -1,0 +1,105 @@
+.class public final synthetic Lag2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/compose/ui/d;
+
+.field public final synthetic b:Z
+
+.field public final synthetic c:I
+
+.field public final synthetic d:Ljava/lang/String;
+
+.field public final synthetic e:Lkotlin/jvm/functions/Function0;
+
+
+# direct methods
+.method public synthetic constructor <init>(IILandroidx/compose/ui/d;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Z)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p3, p0, Lag2;->a:Landroidx/compose/ui/d;
+
+    iput-boolean p6, p0, Lag2;->b:Z
+
+    iput p1, p0, Lag2;->c:I
+
+    iput-object p4, p0, Lag2;->d:Ljava/lang/String;
+
+    iput-object p5, p0, Lag2;->e:Lkotlin/jvm/functions/Function0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 7
+
+    .line 1
+    move-object v2, p1
+
+    .line 2
+    check-cast v2, Landroidx/compose/runtime/a;
+
+    .line 3
+    .line 4
+    check-cast p2, Ljava/lang/Integer;
+
+    .line 5
+    .line 6
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 7
+    .line 8
+    .line 9
+    const/16 p1, 0xc07
+
+    .line 10
+    .line 11
+    invoke-static {p1}, Lw550;->a(I)I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result v1
+
+    .line 15
+    iget v0, p0, Lag2;->c:I
+
+    .line 16
+    .line 17
+    iget-object v3, p0, Lag2;->a:Landroidx/compose/ui/d;
+
+    .line 18
+    .line 19
+    iget-object v4, p0, Lag2;->d:Ljava/lang/String;
+
+    .line 20
+    .line 21
+    iget-object v5, p0, Lag2;->e:Lkotlin/jvm/functions/Function0;
+
+    .line 22
+    .line 23
+    iget-boolean v6, p0, Lag2;->b:Z
+
+    .line 24
+    .line 25
+    invoke-static/range {v0 .. v6}, Lxg2;->n(IILandroidx/compose/runtime/a;Landroidx/compose/ui/d;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Z)V
+
+    .line 26
+    .line 27
+    .line 28
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 29
+    .line 30
+    return-object p0
+.end method

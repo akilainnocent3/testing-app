@@ -1,0 +1,36 @@
+.class public final Lmkj$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkjj;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lmkj;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lkjj<",
+        "Ljava/lang/Object;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    return-object p1
+.end method

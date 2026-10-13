@@ -1,0 +1,167 @@
+.class public final Le5l0$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Le5l0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Le5l0;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# static fields
+.field public static final a:Le5l0$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Le5l0$a;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Le5l0$a;->a:Le5l0$a;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lcom/sporty/android/core/model/worldcuptournament/WorldCupTeam;
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return-object p0
+.end method
+
+.method public final b()Lyw00;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lyw00<",
+            "Lcal0;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return-object p0
+.end method
+
+.method public final c()Lyw00;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lyw00<",
+            "Lcom/sporty/android/core/model/worldcuptournament/WorldCupTeam;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return-object p0
+.end method
+
+.method public final d()Lc5l0;
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return-object p0
+.end method
+
+.method public final e()Z
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return p0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p0, p1, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    instance-of p0, p1, Le5l0$a;
+
+    .line 6
+    .line 7
+    if-nez p0, :cond_1
+
+    .line 8
+    .line 9
+    const/4 p0, 0x0
+
+    .line 10
+    return p0
+
+    .line 11
+    :cond_1
+    return v0
+.end method
+
+.method public final hashCode()I
+    .locals 0
+
+    .line 1
+    const p0, 0x8670b81
+
+    .line 2
+    .line 3
+    .line 4
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const-string p0, "Disabled"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
